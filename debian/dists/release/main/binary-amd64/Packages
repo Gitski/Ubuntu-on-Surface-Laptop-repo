@@ -1067,21 +1067,40 @@ Description: Linux kernel headers for 6.1.3-surface on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.1.6-surface
+Source: linux-upstream
+Version: 6.1.6-surface-1
+Architecture: amd64
+Maintainer: root <root@638b0ae9934e>
+Installed-Size: 52903
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.6-surface_6.1.6-surface-1_amd64.deb
+Size: 9005892
+SHA256: 33febf20fd21e153c280fa5f2a3551ec7ff468624e444da85d65b5544e953bc0
+SHA1: 6d7894cb5a3bca1ac72100aaf53a9ce1f709523a
+MD5sum: d1692f2e93ca559247113f7cc5a9eea8
+Description: Linux kernel headers for 6.1.6-surface on amd64
+ This package provides kernel header files for 6.1.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.1.3-surface-1
+Version: 6.1.6-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.1.3-surface (= 6.1.3-surface-1)
+Depends: linux-headers-6.1.6-surface (= 6.1.6-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.3-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.6-surface-1_amd64.deb
 Size: 2458
-SHA256: dd3085af0cb2abccef29b56a1a3de02943be2c52d2f6fc23658bd1e0f149abc9
-SHA1: 82c9932818941c172686f84ee24c03ab4ca9b122
-MD5sum: 59dbb146162cf6b8141f6d8693d40dd3
+SHA256: 60ae308a53fb379c11272611e2ff58f6cbcd185383179146ffa4c087c4a07b11
+SHA1: c7da4a0c9adb8bec0be4d56f59d3166ac4c190ec
+MD5sum: b129a629012e35f4cfa76cc007b24b33
 Description:
   Meta-package for linux-surface headers.
 
@@ -1985,22 +2004,40 @@ Description: Linux kernel, version 6.1.3-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.3-surface.
 
+Package: linux-image-6.1.6-surface
+Source: linux-upstream
+Version: 6.1.6-surface-1
+Architecture: amd64
+Maintainer: root <root@638b0ae9934e>
+Installed-Size: 356294
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.6-surface_6.1.6-surface-1_amd64.deb
+Size: 73803766
+SHA256: c3d38b851ffc4526c82aeb605962cddb27a4813b6d622fac2276b2d8a1a8577a
+SHA1: 78e2f7ab0b20456e9af2e4fcb340c6bc9940cf5c
+MD5sum: 98a030b62cb7438d633aade15415f3aa
+Description: Linux kernel, version 6.1.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.6-surface.
+
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.1.3-surface-1
+Version: 6.1.6-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.1.3-surface (= 6.1.3-surface-1)
+Depends: linux-image-6.1.6-surface (= 6.1.6-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.1.3-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-image-surface_6.1.6-surface-1_amd64.deb
 Size: 2470
-SHA256: 1315e98bacd5edd502bde926d7b4333c853ac17110455140959a059ac8c4023e
-SHA1: 7ee6003fbddbbb205701a5ee40a7eba648ae4bcb
-MD5sum: 94181bfc5377f393426bfe24ba370ca5
+SHA256: fd0feee06b2fd117a6046cf390631731b378f411a7781952287ed6d96543a71e
+SHA1: d261a0e6798f1f63cc3a2391eb4bdf68b124d12f
+MD5sum: cdef9c2e90abab385e2b67f7fca69f46
 Description:
   Meta-package for linux-surface kernel images.
 
