@@ -2097,18 +2097,18 @@ Description:
   Meta-package for linux-surface kernel images.
 
 Package: linux-surface-secureboot-mok
-Version: 20221014-1
+Version: 20230130-1
 Architecture: amd64
 Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
-Installed-Size: 15
-Depends: mokutil
+Installed-Size: 18
+Depends: mokutil, grep
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface-secureboot-mok/linux-surface-secureboot-mok_20221014-1_amd64.deb
-Size: 5064
-SHA256: 18c64710da7ce129337d8894e7f3ed4adb0c62a96c46f43cef54ff6ce9d712a1
-SHA1: 524f1450dbcef77449ed7948c79f46b54e14c08b
-MD5sum: 0bb4ade5ed17d55786738d522202d92d
+Filename: pool/main/l/linux-surface-secureboot-mok/linux-surface-secureboot-mok_20230130-1_amd64.deb
+Size: 5580
+SHA256: 63ec544cefdc2db7c6c567bf176812afb9affefbf49a50b8caf57be07dc63ffd
+SHA1: 8fb69391825d9b3498bd5e977d1f1cf632ac42f5
+MD5sum: 8425ab98969ed29bb6fac4f3a79a3fef
 Description: Secure-boot machine owner key for linux-surface kernels
 
 Package: surface-control
