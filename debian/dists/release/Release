@@ -1,0 +1,19 @@
+Origin: com.github.linux-surface.linux-surface
+Label: linux-surface
+Codename: release
+Date: Wed, 04 Jan 2023 00:14:42 UTC
+Architectures: amd64
+Components: main
+Description: APT repository for linux-surface
+MD5Sum:
+ fc9a6dca033f9a10e01885192da340ab 74847 main/binary-amd64/Packages
+ 4e0f08c28f817c73d31073ce4780c158 15836 main/binary-amd64/Packages.gz
+ 15ab90745e7c52aee5b806236c34ac2a 150 main/binary-amd64/Release
+SHA1:
+ aaea08c919255cfe14c51cad76b427b74538b8c9 74847 main/binary-amd64/Packages
+ 7ca03b6d31bb3a884bc4ab99969d0c5ef4d3f15c 15836 main/binary-amd64/Packages.gz
+ dacb6eb20dd4d3620ac83380078a85fa95226d17 150 main/binary-amd64/Release
+SHA256:
+ d930e4230e5775983a1bc8e2f4b08968ada979f472b5bdb38fede37c4d837aae 74847 main/binary-amd64/Packages
+ 04541f31c720bab636bcf2ebf63977fff5522b7c56e9891799c6bc0ac3f62e0c 15836 main/binary-amd64/Packages.gz
+ cebcefab064213b3eb64a98c1836a7fd496be058d1ea40de050bb9c2e5db5770 150 main/binary-amd64/Release
