@@ -1,16 +1,16 @@
 Package: iptsd
-Version: 0.5.1-1
+Version: 1.0.0-1
 Architecture: amd64
 Maintainer: Dorian Stoll <dorian.stoll@tmsp.io>
-Installed-Size: 96
-Depends: systemd, udev, libinih1
+Installed-Size: 4609
+Depends: systemd, udev, libc6 (>= 2.29), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.3.1), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 9)
 Priority: optional
 Section: misc
-Filename: pool/main/i/iptsd/iptsd_0.5.1-1_amd64.deb
-Size: 22216
-SHA256: c914b3bdb5badfc39a9892fcb256a567df011b726ad9d07a8fcf56531f881915
-SHA1: 2fdc2faff2cbe72f028fff9500253f42994d04b0
-MD5sum: a5c9638b51cc250d97619620fa3b9b48
+Filename: pool/main/i/iptsd/iptsd_1.0.0-1_amd64.deb
+Size: 764106
+SHA256: c07fbba924f384849733af060b6fba9414a1842792ee484246015557b4bceb2a
+SHA1: 0cb2eda80aebd757f870379c645302141543aa07
+MD5sum: e9fe02831942ee5c8b91686a3405dcb7
 Description: Userspace daemon for Intel Precise Touch & Stylus
 
 Package: libwacom-bin-surface
@@ -1105,21 +1105,40 @@ Description: Linux kernel headers for 6.1.8-surface on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.1.9-surface
+Source: linux-upstream
+Version: 6.1.9-surface-1
+Architecture: amd64
+Maintainer: root <root@948f86482e0c>
+Installed-Size: 53207
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.9-surface_6.1.9-surface-1_amd64.deb
+Size: 9007776
+SHA256: 58cc0d7e1daf1b7eb7a4f281942345ccfcbaf6f145426fbd8773284085ad6718
+SHA1: 786d56d4b89434efb5a125fd49807b8cec331d99
+MD5sum: e8895689d53bd39567dd18a308a1c76e
+Description: Linux kernel headers for 6.1.9-surface on amd64
+ This package provides kernel header files for 6.1.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.1.8-surface-1
+Version: 6.1.9-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.1.8-surface (= 6.1.8-surface-1)
+Depends: linux-headers-6.1.9-surface (= 6.1.9-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.8-surface-1_amd64.deb
-Size: 2454
-SHA256: 1020c247335ea9afb06b0c700b0a707a65a1627d1820960be20b52e22480e777
-SHA1: 69257590dad49db80246d8e334da2d46e12f1ed4
-MD5sum: 743840759fed818e56bf71b029349afd
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.9-surface-1_amd64.deb
+Size: 2458
+SHA256: 395ef252ac1a51100db4ae5e9c4772f494950aa56b92f912e4469bb8c2b71d81
+SHA1: 8534289d2e66e31fb9e273184bf7bb2b2fcd04de
+MD5sum: ad04b9175c2bc88a708ccfbaa47941b3
 Description:
   Meta-package for linux-surface headers.
 
@@ -2059,22 +2078,40 @@ Description: Linux kernel, version 6.1.8-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.8-surface.
 
+Package: linux-image-6.1.9-surface
+Source: linux-upstream
+Version: 6.1.9-surface-1
+Architecture: amd64
+Maintainer: root <root@948f86482e0c>
+Installed-Size: 355517
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.9-surface_6.1.9-surface-1_amd64.deb
+Size: 73797426
+SHA256: 949b893349973ecbd61f8b4d79ba0edce624d21cd0d9276e153fdbe3957c81c2
+SHA1: 9de91b48ac0dcca69028ec7843cf41bc28422240
+MD5sum: f3d7aace2867b2ad695a5a80efa10926
+Description: Linux kernel, version 6.1.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.9-surface.
+
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.1.8-surface-1
+Version: 6.1.9-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.1.8-surface (= 6.1.8-surface-1)
+Depends: linux-image-6.1.9-surface (= 6.1.9-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.1.8-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-image-surface_6.1.9-surface-1_amd64.deb
 Size: 2466
-SHA256: 5c6c22375899471d3cc8a70a2062acd1b97723955f5d4457a043ed30f6c4913e
-SHA1: cd6bbdc00ea108d138bb3ce1e6031982fbf935a2
-MD5sum: f7c0d697a1fd4a117f3ef991d2a387e8
+SHA256: 8c9ce9f0e21e5ac120aff40b0cfd6832cc8e216e374462bcf2b0d03c33d62585
+SHA1: b101abece3bf0ffb59e12e8dc8b07c62f8d642a2
+MD5sum: 1ed511da7334700f95937fc1e808f790
 Description:
   Meta-package for linux-surface kernel images.
 
