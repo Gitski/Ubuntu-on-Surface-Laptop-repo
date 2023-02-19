@@ -1,16 +1,16 @@
 Package: iptsd
-Version: 1.1.0-1
+Version: 1.1.1-1
 Architecture: amd64
 Maintainer: Dorian Stoll <dorian.stoll@tmsp.io>
 Installed-Size: 4578
 Depends: systemd, udev, libc6 (>= 2.29), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.3.1), libsdl2-2.0-0 (>= 2.0.12), libstdc++6 (>= 9)
 Priority: optional
 Section: misc
-Filename: pool/main/i/iptsd/iptsd_1.1.0-1_amd64.deb
-Size: 775338
-SHA256: ced8c08e91ebb77c67a85210c0a21e8e3b2926ebdb259b6865625627712423f7
-SHA1: a90a44e206f9193d03efc4e3d64d71935f8103da
-MD5sum: a8e04446e47d9218e24a41503e5f1ff6
+Filename: pool/main/i/iptsd/iptsd_1.1.1-1_amd64.deb
+Size: 768450
+SHA256: c0e2cd1e7d5348178f01613a801a2493f6e4fad289cfdfd751a741914c9e4d84
+SHA1: 4ce3757c69838d0aa7aa716850a648eb1e9f18bd
+MD5sum: 4eef1da21661bbf3c8773d3c3149788f
 Description: Userspace daemon for Intel Precise Touch & Stylus
 
 Package: libwacom-bin-surface
@@ -1048,6 +1048,25 @@ Description: Linux kernel headers for 6.1.11-surface on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.1.12-surface
+Source: linux-upstream
+Version: 6.1.12-surface-1
+Architecture: amd64
+Maintainer: root <root@274ea9363962>
+Installed-Size: 53225
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.12-surface_6.1.12-surface-1_amd64.deb
+Size: 9007772
+SHA256: f12763916722839939f5447293ff8ca8ef65a96e106802f9595a99a49f958c98
+SHA1: 751507740ea4b62de6f61f141338b415bd20c995
+MD5sum: 55b63294dc8b551fc4ae18131d748e6c
+Description: Linux kernel headers for 6.1.12-surface on amd64
+ This package provides kernel header files for 6.1.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.1.2-surface
 Source: linux-upstream
 Version: 6.1.2-surface-3
@@ -1145,19 +1164,19 @@ Description: Linux kernel headers for 6.1.9-surface on amd64
 
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.1.11-surface-1
+Version: 6.1.12-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.1.11-surface (= 6.1.11-surface-1)
+Depends: linux-headers-6.1.12-surface (= 6.1.12-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.11-surface-1_amd64.deb
-Size: 2458
-SHA256: b622f46923aab9e21d44c5c6191020c42d11b168a2f6ca750022386f814c1f84
-SHA1: b3bae2bad6163b884c0e1acf5b943845cb59b821
-MD5sum: a162decdfc209bdba87d68693d9cbc69
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.12-surface-1_amd64.deb
+Size: 2462
+SHA256: 4b8d7f22579dfa4c5e96176727d9fbd0eeaf813311996d04ae45e2223cac6c7d
+SHA1: b3f95f65df9e6ea1fd2167feb255d9891825d421
+MD5sum: 3161f93ebb2fe6d94f89113b3868fbfc
 Description:
   Meta-package for linux-surface headers.
 
@@ -2043,6 +2062,24 @@ Description: Linux kernel, version 6.1.11-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.11-surface.
 
+Package: linux-image-6.1.12-surface
+Source: linux-upstream
+Version: 6.1.12-surface-1
+Architecture: amd64
+Maintainer: root <root@274ea9363962>
+Installed-Size: 355656
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.12-surface_6.1.12-surface-1_amd64.deb
+Size: 73830454
+SHA256: a200f6b5a74d5927d16eb8d1e2f63fae08d0c2755ffd3b884dea678f3d78c809
+SHA1: 86dd2e85e84c0512754737c18e8ef9f0f7f19fac
+MD5sum: 99a587d1cab174fbc61a252399e27c40
+Description: Linux kernel, version 6.1.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.12-surface.
+
 Package: linux-image-6.1.2-surface
 Source: linux-upstream
 Version: 6.1.2-surface-3
@@ -2135,20 +2172,20 @@ Description: Linux kernel, version 6.1.9-surface
 
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.1.11-surface-1
+Version: 6.1.12-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.1.11-surface (= 6.1.11-surface-1)
+Depends: linux-image-6.1.12-surface (= 6.1.12-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.1.11-surface-1_amd64.deb
-Size: 2470
-SHA256: 15a0d90c38642c589c00b68deb7d1878c38d5fc769979770a75bcddf6df9a638
-SHA1: 0ce40b400501ed5e5cbf31c9d597cd59c53216b3
-MD5sum: 3357ac52a3712ecfc5909e131de4bfa9
+Filename: pool/main/l/linux-surface/linux-image-surface_6.1.12-surface-1_amd64.deb
+Size: 2474
+SHA256: 08bacf70c9cdecf9f35e797a17b60aa2468a3a40a3a00ea2c1c3cb3a086abe0a
+SHA1: 1bf74881bf2380121868e9cce85b04868c22a5b0
+MD5sum: d9848694c6839f42d28063e8891eac4e
 Description:
   Meta-package for linux-surface kernel images.
 
