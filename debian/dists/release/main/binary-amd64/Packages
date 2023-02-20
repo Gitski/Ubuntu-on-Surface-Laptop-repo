@@ -1050,18 +1050,18 @@ Description: Linux kernel headers for 6.1.11-surface on amd64
 
 Package: linux-headers-6.1.12-surface
 Source: linux-upstream
-Version: 6.1.12-surface-1
+Version: 6.1.12-surface-2
 Architecture: amd64
-Maintainer: root <root@274ea9363962>
+Maintainer: root <root@6004caea882e>
 Installed-Size: 53225
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-upstream/linux-headers-6.1.12-surface_6.1.12-surface-1_amd64.deb
-Size: 9007772
-SHA256: f12763916722839939f5447293ff8ca8ef65a96e106802f9595a99a49f958c98
-SHA1: 751507740ea4b62de6f61f141338b415bd20c995
-MD5sum: 55b63294dc8b551fc4ae18131d748e6c
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.12-surface_6.1.12-surface-2_amd64.deb
+Size: 9008288
+SHA256: 0cbf76b37db23584bd62cff4263eaac3fa47cc4d58eee43320e6d0e2d8f9a2ed
+SHA1: ecae959ee287fee46c0a2c069911ff4d2a1a80cb
+MD5sum: d22021b5cf9437ba27ea2455000860b8
 Description: Linux kernel headers for 6.1.12-surface on amd64
  This package provides kernel header files for 6.1.12-surface on amd64
  .
@@ -1164,19 +1164,19 @@ Description: Linux kernel headers for 6.1.9-surface on amd64
 
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.1.12-surface-1
+Version: 6.1.12-surface-2
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.1.12-surface (= 6.1.12-surface-1)
+Depends: linux-headers-6.1.12-surface (= 6.1.12-surface-2)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.12-surface-1_amd64.deb
-Size: 2462
-SHA256: 4b8d7f22579dfa4c5e96176727d9fbd0eeaf813311996d04ae45e2223cac6c7d
-SHA1: b3f95f65df9e6ea1fd2167feb255d9891825d421
-MD5sum: 3161f93ebb2fe6d94f89113b3868fbfc
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.1.12-surface-2_amd64.deb
+Size: 2458
+SHA256: b4ebd5d70e388f3e2d167912b9b442e553f685e87ae35b789e4b9f74c9797b9f
+SHA1: 32e7163fa0ffe2dd3cf3c8c1959bd82b57b3c205
+MD5sum: af4c05d778e545bf3cab32180675da6a
 Description:
   Meta-package for linux-surface headers.
 
@@ -2064,18 +2064,18 @@ Description: Linux kernel, version 6.1.11-surface
 
 Package: linux-image-6.1.12-surface
 Source: linux-upstream
-Version: 6.1.12-surface-1
+Version: 6.1.12-surface-2
 Architecture: amd64
-Maintainer: root <root@274ea9363962>
-Installed-Size: 355656
+Maintainer: root <root@6004caea882e>
+Installed-Size: 355658
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-upstream/linux-image-6.1.12-surface_6.1.12-surface-1_amd64.deb
-Size: 73830454
-SHA256: a200f6b5a74d5927d16eb8d1e2f63fae08d0c2755ffd3b884dea678f3d78c809
-SHA1: 86dd2e85e84c0512754737c18e8ef9f0f7f19fac
-MD5sum: 99a587d1cab174fbc61a252399e27c40
+Filename: pool/main/l/linux-upstream/linux-image-6.1.12-surface_6.1.12-surface-2_amd64.deb
+Size: 73825354
+SHA256: 134ff6f6638bff727d143d51256653ac30523c8cf4a65d4a05ec4dc85e78e7a4
+SHA1: d8c7fa6504e180aad3240d727d93eef576ab94e3
+MD5sum: 9f9a20a78040c50ca6b1f2f1e331fc31
 Description: Linux kernel, version 6.1.12-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.1.12-surface.
@@ -2172,20 +2172,20 @@ Description: Linux kernel, version 6.1.9-surface
 
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.1.12-surface-1
+Version: 6.1.12-surface-2
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.1.12-surface (= 6.1.12-surface-1)
+Depends: linux-image-6.1.12-surface (= 6.1.12-surface-2)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.1.12-surface-1_amd64.deb
-Size: 2474
-SHA256: 08bacf70c9cdecf9f35e797a17b60aa2468a3a40a3a00ea2c1c3cb3a086abe0a
-SHA1: 1bf74881bf2380121868e9cce85b04868c22a5b0
-MD5sum: d9848694c6839f42d28063e8891eac4e
+Filename: pool/main/l/linux-surface/linux-image-surface_6.1.12-surface-2_amd64.deb
+Size: 2470
+SHA256: 2dcaeae50726f91a11e3a611bed551d5f67d664bda6c060772d6fc4cbca463d8
+SHA1: 1a632d8943b6792a0c7630ed5a993261d3903238
+MD5sum: 49fb723fe11b69e8e8197500eb3429e0
 Description:
   Meta-package for linux-surface kernel images.
 
