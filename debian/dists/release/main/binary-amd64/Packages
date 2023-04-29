@@ -1238,6 +1238,25 @@ Description: Linux kernel headers for 6.2.12-surface on amd64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-6.2.13-surface
+Source: linux-upstream
+Version: 6.2.13-surface-1
+Architecture: amd64
+Maintainer: root <root@b1ff4f576778>
+Installed-Size: 53851
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.13-surface_6.2.13-surface-1_amd64.deb
+Size: 9116592
+SHA256: f21d7a334a1163f81b0deebf8c92f53315aa24e86c4953b076ee337aa24bed80
+SHA1: 66cfc21219835dd37ecb052a8e14c360f8fe3d2e
+MD5sum: 7d03ea5e8535eaab18d4389321230509
+Description: Linux kernel headers for 6.2.13-surface on amd64
+ This package provides kernel header files for 6.2.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-headers-6.2.2-surface
 Source: linux-upstream
 Version: 6.2.2-surface-2
@@ -1316,19 +1335,19 @@ Description: Linux kernel headers for 6.2.8-surface on amd64
 
 Package: linux-headers-surface
 Source: linux-surface
-Version: 6.2.12-surface-1
+Version: 6.2.13-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-headers-6.2.12-surface (= 6.2.12-surface-1)
+Depends: linux-headers-6.2.13-surface (= 6.2.13-surface-1)
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-headers-surface_6.2.12-surface-1_amd64.deb
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.2.13-surface-1_amd64.deb
 Size: 2458
-SHA256: 1fcd4a4a43231e8c9ff6c9d836bc89841bfe455b7c6264b1e9c1a9dc19ade525
-SHA1: 89df591e7c170a005396c00ba14c43076ca4478f
-MD5sum: 50e2accc8b8dc6316b47b2282ab6cbb2
+SHA256: 00d49234e6ca90e99838699c148cb94dcd2b6b9e46b44dec6d92b217ae9cf08d
+SHA1: d212ab13b2ce8af2eb0b5771352fbf0bc256c654
+MD5sum: cfb022eb85a16d69032995e765b80033
 Description:
   Meta-package for linux-surface headers.
 
@@ -2394,6 +2413,24 @@ Description: Linux kernel, version 6.2.12-surface
  This package contains the Linux kernel, modules and corresponding other
  files, version: 6.2.12-surface.
 
+Package: linux-image-6.2.13-surface
+Source: linux-upstream
+Version: 6.2.13-surface-1
+Architecture: amd64
+Maintainer: root <root@b1ff4f576778>
+Installed-Size: 419973
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.13-surface_6.2.13-surface-1_amd64.deb
+Size: 80621274
+SHA256: 25ecc0d2f1bcfbcded4860b290759fb9effd7094a50e337f69b6bcd98bf12e4b
+SHA1: 379e9efb2c6f6ee73f5c2eb569fe2c1c5c2d3f9e
+MD5sum: ab1be95e0f3cc6d3f3cf0ef5e2905266
+Description: Linux kernel, version 6.2.13-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.13-surface.
+
 Package: linux-image-6.2.2-surface
 Source: linux-upstream
 Version: 6.2.2-surface-2
@@ -2468,20 +2505,20 @@ Description: Linux kernel, version 6.2.8-surface
 
 Package: linux-image-surface
 Source: linux-surface
-Version: 6.2.12-surface-1
+Version: 6.2.13-surface-1
 Architecture: amd64
 Maintainer: surfacebot <surfacebot@users.noreply.github.com>
 Installed-Size: 7
-Depends: linux-image-6.2.12-surface (= 6.2.12-surface-1)
+Depends: linux-image-6.2.13-surface (= 6.2.13-surface-1)
 Recommends: iptsd
 Homepage: https://github.com/linux-surface/linux-surface
 Priority: optional
 Section: misc
-Filename: pool/main/l/linux-surface/linux-image-surface_6.2.12-surface-1_amd64.deb
-Size: 2470
-SHA256: 4d42dfd80d9e2d402beb7fc6eec825550bc3bec7bfd8f87861675e5ecea5db9b
-SHA1: 3e4aa435d6c3aa69ccf2ca645c7068dd06bcda17
-MD5sum: dc04e19e82c04e38b6eeaedb5510cdaf
+Filename: pool/main/l/linux-surface/linux-image-surface_6.2.13-surface-1_amd64.deb
+Size: 2474
+SHA256: 5eac2f9750b1d4a86c61e8339082bd815efc693c3ceec81004e7618aa565e4c5
+SHA1: 397ebd8a50ec40c380e2511b3c3b405261ff552e
+MD5sum: 21cda6bbe8ed81214dcf8315fc82cb87
 Description:
   Meta-package for linux-surface kernel images.
 
