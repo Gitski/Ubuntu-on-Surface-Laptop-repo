@@ -1,16 +1,16 @@
 Package: iptsd
-Version: 1.2.0-1
+Version: 1.2.1-1
 Architecture: amd64
 Maintainer: Dorian Stoll <dorian.stoll@tmsp.io>
 Installed-Size: 5927
 Depends: systemd, udev, libc6 (>= 2.29), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
 Priority: optional
 Section: misc
-Filename: pool/main/i/iptsd/iptsd_1.2.0-1_amd64.deb
-Size: 1001130
-SHA256: 6399f8e912cfa784b045cc6daefa15146a4acba26b8752e715c2e63c39efd5af
-SHA1: f64d5b7b747f06482f036051dd48968c6f0d7254
-MD5sum: 5f7e6f7f196641e22a5e0a974e2aecdc
+Filename: pool/main/i/iptsd/iptsd_1.2.1-1_amd64.deb
+Size: 1002730
+SHA256: a614378490772c6debdaf1cf1b18193150be880f5796f10c4b9fed01d3737e1f
+SHA1: 8fc17374119006c2112c8c14c1ab7e7cd883c44a
+MD5sum: e0582e6ec217b691414e7c47a901bcd1
 Description: Userspace daemon for Intel Precise Touch & Stylus
 
 Package: libwacom-bin-surface
