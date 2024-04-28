@@ -1,0 +1,2698 @@
+Package: iptsd
+Version: 1.2.1-1
+Architecture: amd64
+Maintainer: Dorian Stoll <dorian.stoll@tmsp.io>
+Installed-Size: 5927
+Depends: systemd, udev, libc6 (>= 2.29), libcairomm-1.0-1v5 (>= 1.12.0), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Priority: optional
+Section: misc
+Filename: pool/main/i/iptsd/iptsd_1.2.1-1_amd64.deb
+Size: 1002730
+SHA256: a614378490772c6debdaf1cf1b18193150be880f5796f10c4b9fed01d3737e1f
+SHA1: 8fc17374119006c2112c8c14c1ab7e7cd883c44a
+MD5sum: e0582e6ec217b691414e7c47a901bcd1
+Description: Userspace daemon for Intel Precise Touch & Stylus
+
+Package: libwacom-bin-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom-bin-surface/libwacom-bin-surface_2.6.0-2_amd64.deb
+Size: 14094
+SHA256: a1ee608250a9aace26452549ba45ebc4bbd07ff3a900a73706281971fe134c65
+SHA1: af6a2aea412f5c319da4745878f9945763cc6495
+MD5sum: 60a737ad3a86393bff4469b751bdeaae
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom9-surface (= 2.6.0-2)
+Conflicts: libwacom-bin
+Provides: libwacom-bin (= 2.6.0-2)
+
+Package: libwacom-common-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom-common-surface/libwacom-common-surface_2.6.0-2_amd64.deb
+Size: 86474
+SHA256: e6b6244f6fd064e62721ba0090db1868de2b91ccb62730ac9190fe420caa1b5a
+SHA1: dfccf99fb6601bb2476e0e97ac5c3f90bb106472
+MD5sum: 88cfe85842e59013574ed9af379c83f4
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Conflicts: libwacom-common
+Provides: libwacom-common (= 2.6.0-2)
+
+Package: libwacom-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom-surface/libwacom-surface_2.6.0-2_amd64.deb
+Size: 1870
+SHA256: 844d33d5de9e8b9da8b082b4aac560ca769ef199df05d672e0c5a0dbfd1cd332
+SHA1: 9562d5d05d946b95f067ff20ca4d4ce4c9f351e7
+MD5sum: 92d3873e84b3c2c6c13a1fc769fa938f
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libwacom2-surface (= 2.6.0-2), libwacom9-surface (= 2.6.0-2), libwacom-bin-surface (= 2.6.0-2), libwacom-common-surface (= 2.6.0-2)
+
+Package: libwacom2-dev-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom2-dev-surface/libwacom2-dev-surface_2.6.0-2_amd64.deb
+Size: 8554
+SHA256: 6e9dc8e9958bc38f52b68a996fd4e9262fd60f91ffe003602f40b38952976a88
+SHA1: c17d4280f20ba1fba4f09d4646589607fcf1128d
+MD5sum: 7a888e6979c9d04675bf28fd4df0b294
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom2-surface (= 2.6.0-2)
+Conflicts: libwacom-dev, libwacom9-dev-surface
+Provides: libwacom-dev (= 1.12.1-2)
+
+Package: libwacom2-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom2-surface/libwacom2-surface_2.6.0-2_amd64.deb
+Size: 22992
+SHA256: 425d77c573aed9e0483a58402d0a24c2752477d103152aca85f72bc9cd41b073
+SHA1: 4452b30ba63b15b94c170564413144179b5a4cc5
+MD5sum: ba19a4e8a43decd2f7e65c0d001e38d0
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.6.0-2)
+Conflicts: libwacom2
+Provides: libwacom2 (= 1.12.1-2)
+
+Package: libwacom9-dev-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom9-dev-surface/libwacom9-dev-surface_2.6.0-2_amd64.deb
+Size: 8560
+SHA256: 21c226bb739e3bca79eace95c76fa4ef36dd8991339360b2ff9426497484f502
+SHA1: 68d668d755730a736a4cbbcdf0650fe67c8791ce
+MD5sum: 5d7383947725a1fb50f52bc0ef11d2cb
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libglib2.0-dev, libgudev-1.0-dev, libwacom9-surface (= 2.6.0-2)
+Conflicts: libwacom-dev, libwacom2-dev-surface
+Provides: libwacom-dev (= 2.6.0-2)
+
+Package: libwacom9-surface
+Version: 2.6.0-2
+Priority: optional
+Section: misc
+Filename: pool/main/libw/libwacom9-surface/libwacom9-surface_2.6.0-2_amd64.deb
+Size: 22848
+SHA256: 6447ee4018c7724331334b56387484c58311a3fb7bceb0319a366ea8a0f0701e
+SHA1: 337758d7af5e65d6f403fce455881009ce797bb3
+MD5sum: d1fb5471c492a9b83ee0d5b3b7282e84
+Description: Patched libwacom for Microsoft Surface devices
+Architecture: amd64
+License: MIT
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Homepage: https://github.com/linux-surface/libwacom
+Depends: libglib2.0-0, libgudev-1.0-0, systemd, libwacom-common-surface (= 2.6.0-2)
+Conflicts: libwacom9
+Provides: libwacom9 (= 2.6.0-2)
+
+Package: linux-headers-4.19.206-surface-lts
+Source: linux-4.19.206-surface-lts
+Version: 4.19.206-surface-lts-1
+Architecture: amd64
+Maintainer: root <root@b9cf5ae6b8bc>
+Installed-Size: 74538
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.206-surface-lts/linux-headers-4.19.206-surface-lts_4.19.206-surface-lts-1_amd64.deb
+Size: 11074802
+SHA256: 0962622b1f02a43e224dc68d4f393f9d9fc6176ade39fd6add53b623b5c6ff76
+SHA1: 93f1172db7fbde40134f25b4a7a75b13f4ec1f3a
+MD5sum: 9478a048fbafc1a6fd27cf33a5e4bf4b
+Description: Linux kernel headers for 4.19.206-surface-lts on amd64
+ This package provides kernel header files for 4.19.206-surface-lts on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.10-surface
+Source: linux-upstream
+Version: 5.14.10-surface-3
+Architecture: amd64
+Maintainer: root <root@6750775e4032>
+Installed-Size: 48831
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.10-surface_5.14.10-surface-3_amd64.deb
+Size: 8389420
+SHA256: a112aac62b33aeb30a5ec6c84ea9cb7cc77149594379935a73b4dfcff398dae4
+SHA1: 74dedef3a4304c53f8a1498f2aa624a405d795e9
+MD5sum: dba3ac0f1577c255957ab6516bcd0a79
+Description: Linux kernel headers for 5.14.10-surface on amd64
+ This package provides kernel header files for 5.14.10-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.11-surface
+Source: linux-upstream
+Version: 5.14.11-surface-2
+Architecture: amd64
+Maintainer: root <root@6e0bc0cfeead>
+Installed-Size: 48832
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.11-surface_5.14.11-surface-2_amd64.deb
+Size: 8389296
+SHA256: 5e66c6e241091f3c76911e582e96a20247ca0e43e78ed73c6e1996a0fabef962
+SHA1: 14f083414a399bd96e99fc477022abdb0f3e37f3
+MD5sum: 193795f8cbc25b4cb08a44f73915e818
+Description: Linux kernel headers for 5.14.11-surface on amd64
+ This package provides kernel header files for 5.14.11-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.13-surface
+Source: linux-upstream
+Version: 5.14.13-surface-1
+Architecture: amd64
+Maintainer: root <root@c0c83a795463>
+Installed-Size: 48831
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.13-surface_5.14.13-surface-1_amd64.deb
+Size: 8389180
+SHA256: 2864569d957ec3e3c284ed291e6667c8beb0f359bc5909fb4f9d66a0ce966bca
+SHA1: 577ecb4767231bd5c313107c7c0208782a704cd5
+MD5sum: 7bc46190f7eca3ecca47ecce3a753e5c
+Description: Linux kernel headers for 5.14.13-surface on amd64
+ This package provides kernel header files for 5.14.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.14-surface
+Source: linux-upstream
+Version: 5.14.14-surface-3
+Architecture: amd64
+Maintainer: root <root@867dc08143d3>
+Installed-Size: 48842
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.14-surface_5.14.14-surface-3_amd64.deb
+Size: 8390992
+SHA256: 3ea3e834e3096d24a8c5cf763eecd6f037e12d8ae129ddcca85d7e8e52cd391f
+SHA1: 9fd01580e73973d1cd8708d96f399b9f7483b827
+MD5sum: 97527bd2d9a9c066a96b38a848043d04
+Description: Linux kernel headers for 5.14.14-surface on amd64
+ This package provides kernel header files for 5.14.14-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.15-surface
+Source: linux-upstream
+Version: 5.14.15-surface-1
+Architecture: amd64
+Maintainer: root <root@b31ccc250f69>
+Installed-Size: 48841
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.15-surface_5.14.15-surface-1_amd64.deb
+Size: 8393948
+SHA256: 8a9bac61520e54566f258b0e1221f2138f56f21cdb027be2005652ff1ca9e1bc
+SHA1: 445183a503d5150e2235abccf4c80894db67316d
+MD5sum: 560bbde55cf58ad0c06bfadf7c26484c
+Description: Linux kernel headers for 5.14.15-surface on amd64
+ This package provides kernel header files for 5.14.15-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.16-surface
+Source: linux-upstream
+Version: 5.14.16-surface-2
+Architecture: amd64
+Maintainer: root <root@37ef9163043b>
+Installed-Size: 48842
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.16-surface_5.14.16-surface-2_amd64.deb
+Size: 8391204
+SHA256: f57bacd0dc67390297c12a8c97df00a20b54e7dd78984eda289ed40273f3f3a0
+SHA1: 68dc1beb08e643b59c0aa6e01fc41387faca4b9d
+MD5sum: 7ca6b6dc0d033cf662ff7243c3e106cc
+Description: Linux kernel headers for 5.14.16-surface on amd64
+ This package provides kernel header files for 5.14.16-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.5-surface
+Source: linux-upstream
+Version: 5.14.5-surface-1
+Architecture: amd64
+Maintainer: root <root@84581971b744>
+Installed-Size: 48815
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.5-surface_5.14.5-surface-1_amd64.deb
+Size: 8388656
+SHA256: 4a0b8af49bc75afa9f0b3d6cb1e3cb289e36171f28fb6fb66cc51c4a13bb9b75
+SHA1: 177605e7b22502bdd954e9e512c51ccb3cd42dd5
+MD5sum: fddbadf78976f99363569daeafbef249
+Description: Linux kernel headers for 5.14.5-surface on amd64
+ This package provides kernel header files for 5.14.5-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.6-surface
+Source: linux-upstream
+Version: 5.14.6-surface-1
+Architecture: amd64
+Maintainer: root <root@e299d439a26d>
+Installed-Size: 48819
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.6-surface_5.14.6-surface-1_amd64.deb
+Size: 8388780
+SHA256: a33b0c4a2cb056481e8a101183f4036746945d9a4b3f10d3461ede73b7fe5603
+SHA1: 4dba47bd86db31f97a71d99949ccc7ca30167cd8
+MD5sum: b9fe21893e4cb5212c359b4a0f8b1401
+Description: Linux kernel headers for 5.14.6-surface on amd64
+ This package provides kernel header files for 5.14.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.14.9-surface
+Source: linux-upstream
+Version: 5.14.9-surface-1
+Architecture: amd64
+Maintainer: root <root@7f1d4a713bbe>
+Installed-Size: 48818
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.14.9-surface_5.14.9-surface-1_amd64.deb
+Size: 8391200
+SHA256: afc3e50d8ee0b59ff549f3ae4f5b5b135b9b151f8e4598e0a8aef44e4ce61952
+SHA1: 749e42a33235008992965cd7c5a833b8d0bd0903
+MD5sum: c9bec79a5c3d34c59e7c5fa89e1cdadb
+Description: Linux kernel headers for 5.14.9-surface on amd64
+ This package provides kernel header files for 5.14.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.11-surface
+Source: linux-upstream
+Version: 5.15.11-surface-1
+Architecture: amd64
+Maintainer: root <root@375c533a72f5>
+Installed-Size: 49383
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.15.11-surface_5.15.11-surface-1_amd64.deb
+Size: 8468008
+SHA256: c61990884c07d99db0a84b636c0939fbd14e98819e1e3d93b56f5ecf0aac2aa7
+SHA1: 0fa085be7f86d6ecbc45848e586ea812730db76e
+MD5sum: f8704ba02b9c52c700b2b8696e159e43
+Description: Linux kernel headers for 5.15.11-surface on amd64
+ This package provides kernel header files for 5.15.11-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.12-surface
+Source: linux-upstream
+Version: 5.15.12-surface-1
+Architecture: amd64
+Maintainer: root <root@6442d65ef200>
+Installed-Size: 49382
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.15.12-surface_5.15.12-surface-1_amd64.deb
+Size: 8464900
+SHA256: 007490bd46bfdbbfcf1ef79c186c626ae036b42a57d323fc2e1d95395202b742
+SHA1: 68b1b3243515ace180b7def4fc604b973ebad796
+MD5sum: 3f17e76c02c77314b10236d61809f843
+Description: Linux kernel headers for 5.15.12-surface on amd64
+ This package provides kernel header files for 5.15.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.14-surface
+Source: linux-upstream
+Version: 5.15.14-surface-1
+Architecture: amd64
+Maintainer: root <root@ecefb1fb9e40>
+Installed-Size: 49383
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.15.14-surface_5.15.14-surface-1_amd64.deb
+Size: 8464024
+SHA256: 9eb8965536548c200f1ace29a6301ed416bea5b9029038c73b13c1b553a9099c
+SHA1: 03e63f68a458dc3cf46efbd352fa0cdbd98fa351
+MD5sum: fdbdd951dfac128a58a4909fa9045706
+Description: Linux kernel headers for 5.15.14-surface on amd64
+ This package provides kernel header files for 5.15.14-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.3-surface
+Source: linux-upstream
+Version: 5.15.3-surface-1
+Architecture: amd64
+Maintainer: root <root@85f43f44c514>
+Installed-Size: 49363
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.15.3-surface_5.15.3-surface-1_amd64.deb
+Size: 8466444
+SHA256: b438eb19bb4ab7c911a0569416acb9d058d95d3df87334b67b9bb0429cb43338
+SHA1: 123c1cb34f7aa42a68fad98750322e22a7d22a4d
+MD5sum: 101503dc3abd5c300187ac352f479bf2
+Description: Linux kernel headers for 5.15.3-surface on amd64
+ This package provides kernel header files for 5.15.3-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.15.6-surface
+Source: linux-upstream
+Version: 5.15.6-surface-1
+Architecture: amd64
+Maintainer: root <root@b7ce4312474f>
+Installed-Size: 49365
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.15.6-surface_5.15.6-surface-1_amd64.deb
+Size: 8463888
+SHA256: 04285fe50198bae90b2f27f2533007acfe30c48b2e890a6aefb892147a17fb28
+SHA1: c465d55b6926496d053ee7234de146534ac768d9
+MD5sum: f586f6d19630f12226e6f4b031d9d89f
+Description: Linux kernel headers for 5.15.6-surface on amd64
+ This package provides kernel header files for 5.15.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.10-surface
+Source: linux-upstream
+Version: 5.16.10-surface-1
+Architecture: amd64
+Maintainer: root <root@bba38493f662>
+Installed-Size: 49893
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.10-surface_5.16.10-surface-1_amd64.deb
+Size: 8557320
+SHA256: 3f1c0ac6359fbba4b909d8ed7ea80c5e4310aba03238876851de64f6edf20cb7
+SHA1: 9ad79cee851809334eff2a7b36718a9c74b2f8fb
+MD5sum: 078b1a461dd241202f2efb7e1f0d1890
+Description: Linux kernel headers for 5.16.10-surface on amd64
+ This package provides kernel header files for 5.16.10-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.11-surface
+Source: linux-upstream
+Version: 5.16.11-surface-1
+Architecture: amd64
+Maintainer: root <root@510c7967f03b>
+Installed-Size: 49892
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.11-surface_5.16.11-surface-1_amd64.deb
+Size: 8560980
+SHA256: 55396841a875f014e2c73fe2646fd226288d63c72bdd3f5ceced99a333f2803f
+SHA1: 3c6dfa9b119b191c014cfbf4b8fe29aeeabe83c9
+MD5sum: ac13f2afd872b2f6d175059e459c2843
+Description: Linux kernel headers for 5.16.11-surface on amd64
+ This package provides kernel header files for 5.16.11-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.13-surface
+Source: linux-upstream
+Version: 5.16.13-surface-1
+Architecture: amd64
+Maintainer: root <root@80c62fc9aa3e>
+Installed-Size: 49897
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.13-surface_5.16.13-surface-1_amd64.deb
+Size: 8558500
+SHA256: 0ef5c28ecebfdcb932a3368382547379f15fc599148bda978da866fe5f158d69
+SHA1: 49fec00877811100a7f006bfbc15eb8736d03a49
+MD5sum: 725f7f9696b658219d134249c47f254c
+Description: Linux kernel headers for 5.16.13-surface on amd64
+ This package provides kernel header files for 5.16.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.17-surface
+Source: linux-upstream
+Version: 5.16.17-surface-1
+Architecture: amd64
+Maintainer: root <root@7fadb6495833>
+Installed-Size: 49898
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.17-surface_5.16.17-surface-1_amd64.deb
+Size: 8557608
+SHA256: f3ba33e975efa151dbb5f3ff21740ece3c8978b40e352a5964d38ee89860e92b
+SHA1: 64fe78a8bbb7e332e67185f393ed2ce78b5132e4
+MD5sum: ce735c7fae18e2a78d1d17427362914b
+Description: Linux kernel headers for 5.16.17-surface on amd64
+ This package provides kernel header files for 5.16.17-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.5-surface
+Source: linux-upstream
+Version: 5.16.5-surface-1
+Architecture: amd64
+Maintainer: root <root@696bfd6e5bf8>
+Installed-Size: 49872
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.5-surface_5.16.5-surface-1_amd64.deb
+Size: 8556292
+SHA256: 98144254a1f9e496cee1756fdbf226b9d9a7836327cca5fb82b49b2d2b018037
+SHA1: 8bcfd982f3b6a4de03f09937960c4dc4e7480fea
+MD5sum: b62ea75af811789fece4c1d17eab27a0
+Description: Linux kernel headers for 5.16.5-surface on amd64
+ This package provides kernel header files for 5.16.5-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.8-surface
+Source: linux-upstream
+Version: 5.16.8-surface-1
+Architecture: amd64
+Maintainer: root <root@29ad1580d103>
+Installed-Size: 49876
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.8-surface_5.16.8-surface-1_amd64.deb
+Size: 8556224
+SHA256: 1794cb3940ecb5105dea1e9f61abeaa5ff8619058248b30e1213350e1d143939
+SHA1: c8528adc007abcd67db97fddde65bf923e0de7ec
+MD5sum: e1f6075d5355fe05125f17e55a2afaa7
+Description: Linux kernel headers for 5.16.8-surface on amd64
+ This package provides kernel header files for 5.16.8-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.16.9-surface
+Source: linux-upstream
+Version: 5.16.9-surface-1
+Architecture: amd64
+Maintainer: root <root@90c09c5871e6>
+Installed-Size: 49876
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.16.9-surface_5.16.9-surface-1_amd64.deb
+Size: 8556356
+SHA256: 6b3de696d78c50e457d78dbc72b99631725d7b2a27644bacdf46d91691545d06
+SHA1: 9be97ca45beed7ef07e7b224a6172404776978c2
+MD5sum: 6b158c9004f398f273825664244263a8
+Description: Linux kernel headers for 5.16.9-surface on amd64
+ This package provides kernel header files for 5.16.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.17.4-surface
+Source: linux-upstream
+Version: 5.17.4-surface-1
+Architecture: amd64
+Maintainer: root <root@442656199c8b>
+Installed-Size: 50436
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-5.17.4-surface_5.17.4-surface-1_amd64.deb
+Size: 8638780
+SHA256: 0075ba65271c3dae2d9c2b60e5b6abd79d5ee04c9c42b0ee4451f731987ea8d3
+SHA1: 6df71e914cd61b0e3fe34177ca3c46f092b2a82f
+MD5sum: 908d87051dbfdb2e2c61bc05e1e76135
+Description: Linux kernel headers for 5.17.4-surface on amd64
+ This package provides kernel header files for 5.17.4-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.17.5-surface
+Source: linux-upstream
+Version: 5.17.5-surface-3
+Architecture: amd64
+Maintainer: root <root@21fbd0e057d1>
+Installed-Size: 50437
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.17.5-surface_5.17.5-surface-3_amd64.deb
+Size: 8639688
+SHA256: e15ca72221904b21182dfbae2303f8c66888819b07c07f61e9564e409069ebce
+SHA1: 2d2a17e818d17473d9372f74cf3209c15b34e4c6
+MD5sum: c35de51e0fbd4473d60b87c063619ad6
+Description: Linux kernel headers for 5.17.5-surface on amd64
+ This package provides kernel header files for 5.17.5-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.17.7-surface
+Source: linux-upstream
+Version: 5.17.7-surface-1
+Architecture: amd64
+Maintainer: root <root@0ef8b5d0bed1>
+Installed-Size: 50429
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.17.7-surface_5.17.7-surface-1_amd64.deb
+Size: 8642072
+SHA256: dd6191818a5b688be8885e2423edf7fe4005279149d6aa9e5f8f0d014911f7ee
+SHA1: ab0f0c66f0ab6dc55614a33aadad2ad06be1c26a
+MD5sum: e690c393fe0b86129e191220742a29c9
+Description: Linux kernel headers for 5.17.7-surface on amd64
+ This package provides kernel header files for 5.17.7-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.17.9-surface
+Source: linux-upstream
+Version: 5.17.9-surface-2
+Architecture: amd64
+Maintainer: root <root@7f48420a955a>
+Installed-Size: 50432
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.17.9-surface_5.17.9-surface-2_amd64.deb
+Size: 8642384
+SHA256: 5d5623081499ed208a0cfb30beb99f998252d5207ef3318f1bda3ba09d935411
+SHA1: 83e07fd684625a926d157ba07a4b5336457a58b6
+MD5sum: bcdc49c12cd7d204b9138ba737eb7e05
+Description: Linux kernel headers for 5.17.9-surface on amd64
+ This package provides kernel header files for 5.17.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.1-surface
+Source: linux-upstream
+Version: 5.18.1-surface-1
+Architecture: amd64
+Maintainer: root <root@3f1e22a18e3d>
+Installed-Size: 50889
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.1-surface_5.18.1-surface-1_amd64.deb
+Size: 8717280
+SHA256: 70ce658c1edd255a0a89cbc59a945933d7926b0d89b48caa567fc43f91b828de
+SHA1: f96f0c75e9ba16bdd1273ab7a33897c1dfcbcab5
+MD5sum: a01f4c044e8185fd58f67b51a4ac664f
+Description: Linux kernel headers for 5.18.1-surface on amd64
+ This package provides kernel header files for 5.18.1-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.12-surface
+Source: linux-upstream
+Version: 5.18.12-surface-1
+Architecture: amd64
+Maintainer: root <root@aa8e47362d2f>
+Installed-Size: 50961
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.12-surface_5.18.12-surface-1_amd64.deb
+Size: 8724504
+SHA256: a1534c02d1e89391a5e4bae2d2e863a8e60a9f122096b4c6ccb925849398fade
+SHA1: ade146126ad3ade4b1f2d7b2d924c2d662470b12
+MD5sum: d129ba947c162807b25d0cee43a15ff1
+Description: Linux kernel headers for 5.18.12-surface on amd64
+ This package provides kernel header files for 5.18.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.16-surface
+Source: linux-upstream
+Version: 5.18.16-surface-1
+Architecture: amd64
+Maintainer: root <root@a867df7980ba>
+Installed-Size: 51002
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.16-surface_5.18.16-surface-1_amd64.deb
+Size: 8732436
+SHA256: 3024ec5ee9c328477b0f9c6eee3aab9962579943dd8d6ca2dbf031bbe1ab54a7
+SHA1: 62919ba4af3b0813acdb488ba98b34ab485f1c80
+MD5sum: 58529cc6c6d116deca2cb240e291ebb9
+Description: Linux kernel headers for 5.18.16-surface on amd64
+ This package provides kernel header files for 5.18.16-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.3-surface
+Source: linux-upstream
+Version: 5.18.3-surface-1
+Architecture: amd64
+Maintainer: root <root@406e1744bb20>
+Installed-Size: 50934
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.3-surface_5.18.3-surface-1_amd64.deb
+Size: 8725500
+SHA256: 03601879a7ed639c82bbbe42f3006f7ea37be3300a4d6e07e3d20e20be90fd8a
+SHA1: c91dc79ba8ef94004f2dc3799aa650195c740b81
+MD5sum: f16bea63a064c6edbbbe397ae6efa53b
+Description: Linux kernel headers for 5.18.3-surface on amd64
+ This package provides kernel header files for 5.18.3-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.4-surface
+Source: linux-upstream
+Version: 5.18.4-surface-1
+Architecture: amd64
+Maintainer: root <root@8c379a2bef5a>
+Installed-Size: 50941
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.4-surface_5.18.4-surface-1_amd64.deb
+Size: 8722924
+SHA256: f550af12911b9175694cad89e2514c5076d85f211037b56d3860d05d5aaccb88
+SHA1: 2fbab1bf830e3d2f6dde0dea746c5c4582e33ee1
+MD5sum: d1f4c1d006f48024bb18e4dd08bd45fe
+Description: Linux kernel headers for 5.18.4-surface on amd64
+ This package provides kernel header files for 5.18.4-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.5-surface
+Source: linux-upstream
+Version: 5.18.5-surface-1
+Architecture: amd64
+Maintainer: root <root@e42b9e2a7396>
+Installed-Size: 50941
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.5-surface_5.18.5-surface-1_amd64.deb
+Size: 8723296
+SHA256: 12e7c82b273add10a9d42533dbc8ea9226c136920d1046a7ddbd9dc29c853682
+SHA1: f49fb10cd036a428562472b7feaaaff4b9cf2f55
+MD5sum: 65bc5e4afe3b2e77fc6ce3441efc97bc
+Description: Linux kernel headers for 5.18.5-surface on amd64
+ This package provides kernel header files for 5.18.5-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.7-surface
+Source: linux-upstream
+Version: 5.18.7-surface-1
+Architecture: amd64
+Maintainer: root <root@bb536edf467b>
+Installed-Size: 50944
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.7-surface_5.18.7-surface-1_amd64.deb
+Size: 8723064
+SHA256: 088636b952ede5243e98a1fe52ee82fb45f0d28ee43244637b95b4d95e1c854b
+SHA1: 841018adc6a6224ad2d94ecf989a465bef9ae495
+MD5sum: 98701e8e36f7d727a728aab61436ba60
+Description: Linux kernel headers for 5.18.7-surface on amd64
+ This package provides kernel header files for 5.18.7-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.18.9-surface
+Source: linux-upstream
+Version: 5.18.9-surface-1
+Architecture: amd64
+Maintainer: root <root@1972ba865b86>
+Installed-Size: 50942
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.18.9-surface_5.18.9-surface-1_amd64.deb
+Size: 8727588
+SHA256: a99d9bb3679da0baf56c985e4e9652af3a16c4d75796ae317f03c6392cea0f73
+SHA1: bb48633280821f6bf3b60e55789794bc82e3feac
+MD5sum: 9ec29b577e5b3117f0e83ef30ae96be7
+Description: Linux kernel headers for 5.18.9-surface on amd64
+ This package provides kernel header files for 5.18.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.10-surface
+Source: linux-upstream
+Version: 5.19.10-surface-1
+Architecture: amd64
+Maintainer: root <root@10e7b64c56ec>
+Installed-Size: 51807
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.10-surface_5.19.10-surface-1_amd64.deb
+Size: 8809908
+SHA256: 7afc56241bf4442193beccf8d805651a5cd1bd944c4174fc71e822e21e987157
+SHA1: 60e8861ff26ef041ee039d2cf47ad35c3e822194
+MD5sum: 3a9a89d66e845f94566e3d8935150a1b
+Description: Linux kernel headers for 5.19.10-surface on amd64
+ This package provides kernel header files for 5.19.10-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.13-surface
+Source: linux-upstream
+Version: 5.19.13-surface-1
+Architecture: amd64
+Maintainer: root <root@67b4af4e49fe>
+Installed-Size: 51808
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.13-surface_5.19.13-surface-1_amd64.deb
+Size: 8809704
+SHA256: a89454b00a60fc59f80b0ceab217ed6bda43dfb875048eecc4b17f391886739f
+SHA1: 6f9d49d54f01cf284ae6068102314ffba543583a
+MD5sum: 6a7b643e4b591212d692124ca251c9b0
+Description: Linux kernel headers for 5.19.13-surface on amd64
+ This package provides kernel header files for 5.19.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.2-surface
+Source: linux-upstream
+Version: 5.19.2-surface-1
+Architecture: amd64
+Maintainer: root <root@269cde02780c>
+Installed-Size: 51779
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.2-surface_5.19.2-surface-1_amd64.deb
+Size: 8807832
+SHA256: b98bb4d15945187db7e94244d5f6bf8932ce2c6eda81dc6a90dad4c95d6abfc0
+SHA1: 4a7ae8693a7739215bff55c565104e7790630f80
+MD5sum: c3a7cd3664924ee5293fa339f85b4801
+Description: Linux kernel headers for 5.19.2-surface on amd64
+ This package provides kernel header files for 5.19.2-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.4-surface
+Source: linux-upstream
+Version: 5.19.4-surface-1
+Architecture: amd64
+Maintainer: root <root@02156596e63e>
+Installed-Size: 51786
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.4-surface_5.19.4-surface-1_amd64.deb
+Size: 8810672
+SHA256: a1beb81d88769f015a5afdbb15939edd9bbbcdac051c383e3300a2b74405f580
+SHA1: 7b1986fc7a409ef440efe2934037135af421551b
+MD5sum: 0f6e45bbfbc3c02f966eadcf0f3f620d
+Description: Linux kernel headers for 5.19.4-surface on amd64
+ This package provides kernel header files for 5.19.4-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.6-surface
+Source: linux-upstream
+Version: 5.19.6-surface-1
+Architecture: amd64
+Maintainer: root <root@aa566a7dfb3e>
+Installed-Size: 51789
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.6-surface_5.19.6-surface-1_amd64.deb
+Size: 8809540
+SHA256: 3baeba92f214c94d5da327487cbf141f4aebac8c5ee794e7cc06f8c0e415eeb1
+SHA1: 719048d222becdd3126b65b24280abc373c4f073
+MD5sum: 8f1b92385b7f2a1d261927ae63fb151b
+Description: Linux kernel headers for 5.19.6-surface on amd64
+ This package provides kernel header files for 5.19.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-5.19.7-surface
+Source: linux-upstream
+Version: 5.19.7-surface-1
+Architecture: amd64
+Maintainer: root <root@3e0014b38406>
+Installed-Size: 51790
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-5.19.7-surface_5.19.7-surface-1_amd64.deb
+Size: 8809012
+SHA256: 5a4f9f25c58e27c2506242502bcf587e5432d0fc857b7da4262a3678fee60e85
+SHA1: f14439f17015fa43fe4752edaea6d0e36c599f4b
+MD5sum: d9272545c40b1032f47c95ccb3e5f3c5
+Description: Linux kernel headers for 5.19.7-surface on amd64
+ This package provides kernel header files for 5.19.7-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.1-surface
+Source: linux-upstream
+Version: 6.0.1-surface-1
+Architecture: amd64
+Maintainer: root <root@0fd638beccca>
+Installed-Size: 52248
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.1-surface_6.0.1-surface-1_amd64.deb
+Size: 8881684
+SHA256: da9f4ac89469c1bfe1f5ddfa0f04810e2a53c2928a2e2458cd53a6a2a76bbe24
+SHA1: 6dcff56065946338c6f62ecf29f8d1935fa5f0ad
+MD5sum: f3b39ef47b2891ea6db2c6ba44afee8d
+Description: Linux kernel headers for 6.0.1-surface on amd64
+ This package provides kernel header files for 6.0.1-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.12-surface
+Source: linux-upstream
+Version: 6.0.12-surface-5
+Architecture: amd64
+Maintainer: root <root@a4c646d9329b>
+Installed-Size: 51965
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.12-surface_6.0.12-surface-5_amd64.deb
+Size: 8885860
+SHA256: 6dbc750a881da21160bea2d28a2e32c05ec3ec005d2fd321ea696f1d09d921ce
+SHA1: 221a2a312feea75948bf5bf60b9e1c8d704e2fb0
+MD5sum: 5f865beb6af40ffc76368351b510f992
+Description: Linux kernel headers for 6.0.12-surface on amd64
+ This package provides kernel header files for 6.0.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.3-surface
+Source: linux-upstream
+Version: 6.0.3-surface-1
+Architecture: amd64
+Maintainer: root <root@70348b532a45>
+Installed-Size: 52256
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.3-surface_6.0.3-surface-1_amd64.deb
+Size: 8882548
+SHA256: f966012c91593f4e371f7ba1b14e7073f41ded254ba220fd9a9a611db5bc6403
+SHA1: 6039fa9b6fa4ac1ca3f3ce9bcdad67c656bcbfa1
+MD5sum: ffca51d0331bfe2bdcb2734917fb0d8c
+Description: Linux kernel headers for 6.0.3-surface on amd64
+ This package provides kernel header files for 6.0.3-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.6-surface
+Source: linux-upstream
+Version: 6.0.6-surface-1
+Architecture: amd64
+Maintainer: root <root@03204b5f5944>
+Installed-Size: 52255
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.6-surface_6.0.6-surface-1_amd64.deb
+Size: 8886236
+SHA256: 93723cdb99761c309614b32d1f9b93e1af310c33d582265c0e449f96d996d2ff
+SHA1: db0bfae5d07b51e5f74c2153b0d3ed3ba580c643
+MD5sum: fb5c98aee03a984ec63b1164c972d185
+Description: Linux kernel headers for 6.0.6-surface on amd64
+ This package provides kernel header files for 6.0.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.7-surface
+Source: linux-upstream
+Version: 6.0.7-surface-2
+Architecture: amd64
+Maintainer: root <root@252812488fd8>
+Installed-Size: 52258
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.7-surface_6.0.7-surface-2_amd64.deb
+Size: 8883664
+SHA256: fe8484f69be1d6b6bedb54574d2050fbcafe763306407a26b06324b0eac53eb8
+SHA1: ebd303bfa0f4a8451390be5c8598df081b63a40e
+MD5sum: b65e5c4f9f889c3704d5f3ecf82d41ad
+Description: Linux kernel headers for 6.0.7-surface on amd64
+ This package provides kernel header files for 6.0.7-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.8-surface
+Source: linux-upstream
+Version: 6.0.8-surface-3
+Architecture: amd64
+Maintainer: root <root@031da3e085d3>
+Installed-Size: 52259
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.8-surface_6.0.8-surface-3_amd64.deb
+Size: 8883756
+SHA256: 7445a3130e5ebfa07ea87883adfb490935cbb5d0513cdf478ea6d1c7a35bc3f4
+SHA1: 98d75408fad2a3032796c5c9a03bbdff7cfec8d3
+MD5sum: 03c89b004721418c8c513cb4bb828ae1
+Description: Linux kernel headers for 6.0.8-surface on amd64
+ This package provides kernel header files for 6.0.8-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.0.9-surface
+Source: linux-upstream
+Version: 6.0.9-surface-1
+Architecture: amd64
+Maintainer: root <root@84acce385828>
+Installed-Size: 52260
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.0.9-surface_6.0.9-surface-1_amd64.deb
+Size: 8883500
+SHA256: 3b2d5f242c76e3f364194c069e1511c28e2adbf37e5b43c891e68548108513e4
+SHA1: 83ecd3789e7d07dd0680e14482b1025712b2d460
+MD5sum: ec13af87d96f0016f3794b013ce5e273
+Description: Linux kernel headers for 6.0.9-surface on amd64
+ This package provides kernel header files for 6.0.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.11-surface
+Source: linux-upstream
+Version: 6.1.11-surface-1
+Architecture: amd64
+Maintainer: root <root@e321ce63ddce>
+Installed-Size: 53225
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.11-surface_6.1.11-surface-1_amd64.deb
+Size: 9007588
+SHA256: 195887d97a95d73ef7511f716ae903791b649ec465ccb7a8ab8253216f3c5b0e
+SHA1: 0497e641ad476829dac2a05db8100aac44f31e3b
+MD5sum: d8ef24af39d9109d09c937701e223c16
+Description: Linux kernel headers for 6.1.11-surface on amd64
+ This package provides kernel header files for 6.1.11-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.12-surface
+Source: linux-upstream
+Version: 6.1.12-surface-2
+Architecture: amd64
+Maintainer: root <root@6004caea882e>
+Installed-Size: 53225
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.12-surface_6.1.12-surface-2_amd64.deb
+Size: 9008288
+SHA256: 0cbf76b37db23584bd62cff4263eaac3fa47cc4d58eee43320e6d0e2d8f9a2ed
+SHA1: ecae959ee287fee46c0a2c069911ff4d2a1a80cb
+MD5sum: d22021b5cf9437ba27ea2455000860b8
+Description: Linux kernel headers for 6.1.12-surface on amd64
+ This package provides kernel header files for 6.1.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.13-surface
+Source: linux-upstream
+Version: 6.1.13-surface-1
+Architecture: amd64
+Maintainer: root <root@7e90ac3f38f7>
+Installed-Size: 53225
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.13-surface_6.1.13-surface-1_amd64.deb
+Size: 9008472
+SHA256: 1562cfcc353ba2a50afd71b047651bf064743c6a8e6e27e6c4f99764ef97c755
+SHA1: 67ab1c1a164eeab462419ca83a0bd92ae27a0d2a
+MD5sum: 71d7e5437abeed61df6d364a232eb5a9
+Description: Linux kernel headers for 6.1.13-surface on amd64
+ This package provides kernel header files for 6.1.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.2-surface
+Source: linux-upstream
+Version: 6.1.2-surface-3
+Architecture: amd64
+Maintainer: root <root@9a71474b9e6b>
+Installed-Size: 52897
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.2-surface_6.1.2-surface-3_amd64.deb
+Size: 9004716
+SHA256: 8e93ac50f4f58736666aac50eccbfc74607ae78f91c30c068269c8a2591aeb63
+SHA1: 7f53951ed7e38a1ea9f4360772b0129d1a8f8336
+MD5sum: b18a341d53e92dbb182f4902faff6f7f
+Description: Linux kernel headers for 6.1.2-surface on amd64
+ This package provides kernel header files for 6.1.2-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.3-surface
+Source: linux-upstream
+Version: 6.1.3-surface-1
+Architecture: amd64
+Maintainer: root <root@1dc82265d5e9>
+Installed-Size: 52897
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.3-surface_6.1.3-surface-1_amd64.deb
+Size: 9005180
+SHA256: 0a1a1b56547925a586e9d719533c1bd307c355e03a2af7a9b9cd53b63528e6bb
+SHA1: 980b60b640d6b15564e7d082b4b4fe6da1663398
+MD5sum: fb5f7335c788e365724ec9ad899733ec
+Description: Linux kernel headers for 6.1.3-surface on amd64
+ This package provides kernel header files for 6.1.3-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.6-surface
+Source: linux-upstream
+Version: 6.1.6-surface-2
+Architecture: amd64
+Maintainer: root <root@dcecdc35f8f7>
+Installed-Size: 53201
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.6-surface_6.1.6-surface-2_amd64.deb
+Size: 9005908
+SHA256: 16390ff9ce25dd02466dbb9dad0fded563bcf4cf1e8ba32cea90662ccb29ea7a
+SHA1: 4d9979e68237bb0c5bdcbfaf94bd0c0d915e1526
+MD5sum: a1bb0adfafaacb225e6fe20d76ee5b9b
+Description: Linux kernel headers for 6.1.6-surface on amd64
+ This package provides kernel header files for 6.1.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.8-surface
+Source: linux-upstream
+Version: 6.1.8-surface-1
+Architecture: amd64
+Maintainer: root <root@30f2f5418ce8>
+Installed-Size: 53200
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.8-surface_6.1.8-surface-1_amd64.deb
+Size: 9005588
+SHA256: e47a8daa56bdf3495478d1769f56dc214fda464fcb39caa7f0ae2fd7fee1472c
+SHA1: 5060b1c165b8ae95792a840d25a8a9af722b130c
+MD5sum: 13782553f30182d60017754737a37a9b
+Description: Linux kernel headers for 6.1.8-surface on amd64
+ This package provides kernel header files for 6.1.8-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.1.9-surface
+Source: linux-upstream
+Version: 6.1.9-surface-1
+Architecture: amd64
+Maintainer: root <root@948f86482e0c>
+Installed-Size: 53207
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.1.9-surface_6.1.9-surface-1_amd64.deb
+Size: 9007776
+SHA256: 58cc0d7e1daf1b7eb7a4f281942345ccfcbaf6f145426fbd8773284085ad6718
+SHA1: 786d56d4b89434efb5a125fd49807b8cec331d99
+MD5sum: e8895689d53bd39567dd18a308a1c76e
+Description: Linux kernel headers for 6.1.9-surface on amd64
+ This package provides kernel header files for 6.1.9-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.1-surface
+Source: linux-upstream
+Version: 6.2.1-surface-1
+Architecture: amd64
+Maintainer: root <root@dd3a432365f8>
+Installed-Size: 53827
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.1-surface_6.2.1-surface-1_amd64.deb
+Size: 9114068
+SHA256: 8bad3bfb53a3fe37377ec7a2c0f7e33b8560635f10be9890a5557f458f08f3ed
+SHA1: 9dc1ee54f5b3c0a10d8aad175f6aa14e02e2ad17
+MD5sum: fc3c21f430055652c5d401c21c0c6333
+Description: Linux kernel headers for 6.2.1-surface on amd64
+ This package provides kernel header files for 6.2.1-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.10-surface
+Source: linux-upstream
+Version: 6.2.10-surface-1
+Architecture: amd64
+Maintainer: root <root@edefc8922b8d>
+Installed-Size: 53853
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.10-surface_6.2.10-surface-1_amd64.deb
+Size: 9118936
+SHA256: a0fcaeff93040709a770e905124dea0096fc63c564ab80713b98d24a5977be8e
+SHA1: 74eae4c47557f88eade25abb8c06e597e3da80f3
+MD5sum: f0a77859cd03c9e10d5f2a38088f4555
+Description: Linux kernel headers for 6.2.10-surface on amd64
+ This package provides kernel header files for 6.2.10-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.12-surface
+Source: linux-upstream
+Version: 6.2.12-surface-1
+Architecture: amd64
+Maintainer: root <root@3b346b1b4b1e>
+Installed-Size: 53852
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.12-surface_6.2.12-surface-1_amd64.deb
+Size: 9116808
+SHA256: dcb7e07dfdc3780c3775e22885d7f57c973347af31f160b07ca87be93ab70e28
+SHA1: f845d18c4bf3f7a0a88246411b21399a84463221
+MD5sum: 447447879e77cb2520540d9263ae6de9
+Description: Linux kernel headers for 6.2.12-surface on amd64
+ This package provides kernel header files for 6.2.12-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.13-surface
+Source: linux-upstream
+Version: 6.2.13-surface-1
+Architecture: amd64
+Maintainer: root <root@b1ff4f576778>
+Installed-Size: 53851
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.13-surface_6.2.13-surface-1_amd64.deb
+Size: 9116592
+SHA256: f21d7a334a1163f81b0deebf8c92f53315aa24e86c4953b076ee337aa24bed80
+SHA1: 66cfc21219835dd37ecb052a8e14c360f8fe3d2e
+MD5sum: 7d03ea5e8535eaab18d4389321230509
+Description: Linux kernel headers for 6.2.13-surface on amd64
+ This package provides kernel header files for 6.2.13-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.14-surface
+Source: linux-upstream
+Version: 6.2.14-surface-1
+Architecture: amd64
+Maintainer: root <root@942713789bca>
+Installed-Size: 53851
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.14-surface_6.2.14-surface-1_amd64.deb
+Size: 9116864
+SHA256: e777ecd39c327b2a96a6e010bf897e33866ebc425b2b2f3c533974946db8b36f
+SHA1: 9f813c5c5c426b9a0605ad343923c9d4cf93d033
+MD5sum: 1cb6b36a7ffad02aee7be87016a12db5
+Description: Linux kernel headers for 6.2.14-surface on amd64
+ This package provides kernel header files for 6.2.14-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.2-surface
+Source: linux-upstream
+Version: 6.2.2-surface-2
+Architecture: amd64
+Maintainer: root <root@fe33fa8a33cb>
+Installed-Size: 53830
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.2-surface_6.2.2-surface-2_amd64.deb
+Size: 9114656
+SHA256: 086bb443b7ab24f819a09cef281cb04ed571433704686c4607eff3974cf5a7c7
+SHA1: 9f6fa3aa083bc4a0c1af5a2966ed2d57b17c14aa
+MD5sum: 9b8e8783182d15000f72902229599e2a
+Description: Linux kernel headers for 6.2.2-surface on amd64
+ This package provides kernel header files for 6.2.2-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.5-surface
+Source: linux-upstream
+Version: 6.2.5-surface-1
+Architecture: amd64
+Maintainer: root <root@c56cf0ba1a81>
+Installed-Size: 53835
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.5-surface_6.2.5-surface-1_amd64.deb
+Size: 9115720
+SHA256: dbab10bc94b8c461366ee0580767155d238fe06892bcd57d70197463c1bed283
+SHA1: 3c35abf5c1bf52fb67e725ce91189136f1ad3cdc
+MD5sum: b5476f710dfd9af154d0ddb6f0aea0a5
+Description: Linux kernel headers for 6.2.5-surface on amd64
+ This package provides kernel header files for 6.2.5-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.6-surface
+Source: linux-upstream
+Version: 6.2.6-surface-1
+Architecture: amd64
+Maintainer: root <root@d6b5dde4914c>
+Installed-Size: 53835
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.6-surface_6.2.6-surface-1_amd64.deb
+Size: 9116672
+SHA256: 470fff66683c9bea5d294dd4dbc4d4796edf09ea8df1e3bb538ddc9193fb7a54
+SHA1: fddcc4a3d4c308ead789b35d87688d97236f3d64
+MD5sum: 0679ce5571c7b5953efd8a509c3533cc
+Description: Linux kernel headers for 6.2.6-surface on amd64
+ This package provides kernel header files for 6.2.6-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.2.8-surface
+Source: linux-upstream
+Version: 6.2.8-surface-1
+Architecture: amd64
+Maintainer: root <root@502b3132b034>
+Installed-Size: 53838
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.2.8-surface_6.2.8-surface-1_amd64.deb
+Size: 9116924
+SHA256: b4f147b2f1c692bcb1939458d2f45b96efd4a19cb7b9e6ce1c22906e7d90c22b
+SHA1: 028eb5616230a55f7b5e612351a2e0cedbc8af1f
+MD5sum: 77d393cf4f74cdd3df2725a8e7f805d0
+Description: Linux kernel headers for 6.2.8-surface on amd64
+ This package provides kernel header files for 6.2.8-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.3.1-surface
+Source: linux-upstream
+Version: 6.3.1-surface-1
+Architecture: amd64
+Maintainer: root <root@3100333aa118>
+Installed-Size: 54059
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.3.1-surface_6.3.1-surface-1_amd64.deb
+Size: 9157000
+SHA256: 9ea47bcedfd5c550d9248832195655fcad10b51b3747449ba1ceb7c02426518d
+SHA1: 11dce7903f4aec359feb429dc8fb1e1b5fa57737
+MD5sum: c45224a31cb2a45112e19197867c0f36
+Description: Linux kernel headers for 6.3.1-surface on amd64
+ This package provides kernel header files for 6.3.1-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-6.3.2-surface
+Source: linux-upstream
+Version: 6.3.2-surface-1
+Architecture: amd64
+Maintainer: root <root@c542829af65c>
+Installed-Size: 54066
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-headers-6.3.2-surface_6.3.2-surface-1_amd64.deb
+Size: 9157540
+SHA256: 5e7aff21cbf5b3f68c150c0fb7c5a1e958cd8296156d9e6a9897705220ace96a
+SHA1: c50d932602be0dd1087457f5c452fe86a39c0a4b
+MD5sum: 1ebbbacca30add79cdb99ffba64bae13
+Description: Linux kernel headers for 6.3.2-surface on amd64
+ This package provides kernel header files for 6.3.2-surface on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-surface
+Source: linux-surface
+Version: 6.3.2-surface-1
+Architecture: amd64
+Maintainer: surfacebot <surfacebot@users.noreply.github.com>
+Installed-Size: 7
+Depends: linux-headers-6.3.2-surface (= 6.3.2-surface-1)
+Homepage: https://github.com/linux-surface/linux-surface
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-surface/linux-headers-surface_6.3.2-surface-1_amd64.deb
+Size: 2458
+SHA256: 0c100f55d52a610cc5f96cba6fc61ce661e5234cfce5226b9e4d56a8e8badc9a
+SHA1: 886a9febcbb25039516892751969f8cddec6c2e2
+MD5sum: 0bf0bc043fc9a120221bc1145caf9009
+Description:
+  Meta-package for linux-surface headers.
+
+Package: linux-headers-surface-lts
+Source: linux-surface-lts
+Version: 4.19.206-surface-lts-1
+Architecture: amd64
+Maintainer: surfacebot <surfacebot@users.noreply.github.com>
+Installed-Size: 7
+Depends: linux-headers-4.19.206-surface-lts (= 4.19.206-surface-lts-1)
+Homepage: https://github.com/linux-surface/linux-surface
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-surface-lts/linux-headers-surface-lts_4.19.206-surface-lts-1_amd64.deb
+Size: 2474
+SHA256: d869668374d21958274b35a1a8cc44569d81a788eac325dcc32f1f0d188b4d75
+SHA1: 0ac8e626b284303a663aa4343f434a726a59fa14
+MD5sum: cc363dc8e65dead0180f96132b152d74
+Description:
+  Meta-package for linux-surface headers.
+
+Package: linux-image-4.19.206-surface-lts
+Source: linux-4.19.206-surface-lts
+Version: 4.19.206-surface-lts-1
+Architecture: amd64
+Maintainer: root <root@b9cf5ae6b8bc>
+Installed-Size: 244039
+Homepage: http://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-4.19.206-surface-lts/linux-image-4.19.206-surface-lts_4.19.206-surface-lts-1_amd64.deb
+Size: 54678986
+SHA256: 144705458d3ac1f9b4e21cc8fe2d6f1f77106f7884e93fb0b9e0d6e643e96551
+SHA1: a8a56366a438cb47cd9d96312ebab82dd8e432f6
+MD5sum: f719a21a63567d2faadd94c5f32b25a7
+Description: Linux kernel, version 4.19.206-surface-lts
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.206-surface-lts.
+
+Package: linux-image-5.14.10-surface
+Source: linux-upstream
+Version: 5.14.10-surface-3
+Architecture: amd64
+Maintainer: root <root@6750775e4032>
+Installed-Size: 315195
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.10-surface_5.14.10-surface-3_amd64.deb
+Size: 67715922
+SHA256: 90b899cd0b5892bebd07e47179b8b6a2ff5a4bf9e1e46f14a64796f27b059e2a
+SHA1: faf8d26e43f903f6f410c6d298878c67dde08a7b
+MD5sum: 698ea5268d7e1b49a6c67b55777080a8
+Description: Linux kernel, version 5.14.10-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.10-surface.
+
+Package: linux-image-5.14.11-surface
+Source: linux-upstream
+Version: 5.14.11-surface-2
+Architecture: amd64
+Maintainer: root <root@6e0bc0cfeead>
+Installed-Size: 315198
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.11-surface_5.14.11-surface-2_amd64.deb
+Size: 67706218
+SHA256: c8bcba3bd0fb083a7d177ded5a09e0501df1ce305c349f75a9b34209687b4a27
+SHA1: fc5a0710a224caec7dacd942b9506931c72f4047
+MD5sum: dcfb1104aed36d3a3a19483813fab490
+Description: Linux kernel, version 5.14.11-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.11-surface.
+
+Package: linux-image-5.14.14-surface
+Source: linux-upstream
+Version: 5.14.14-surface-3
+Architecture: amd64
+Maintainer: root <root@867dc08143d3>
+Installed-Size: 315306
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.14-surface_5.14.14-surface-3_amd64.deb
+Size: 67737154
+SHA256: 528aeed8caacd877ea73f027af86d95497eadeb599b34af092f0567abc7f1319
+SHA1: 2c762371cfe3ea677498eb48f631878083a19c09
+MD5sum: b2baf26e2b67283ff5106b5a39a38114
+Description: Linux kernel, version 5.14.14-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.14-surface.
+
+Package: linux-image-5.14.15-surface
+Source: linux-upstream
+Version: 5.14.15-surface-1
+Architecture: amd64
+Maintainer: root <root@b31ccc250f69>
+Installed-Size: 315296
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.15-surface_5.14.15-surface-1_amd64.deb
+Size: 67723978
+SHA256: e8c503ee0582b279033570bed792ec78971771e6a69310e97a9d295e38fee6c0
+SHA1: e7f4fc0eb6a0451cb63f9fd1282507d79a1b67d9
+MD5sum: e4c25656b2c7337293227cfde788da59
+Description: Linux kernel, version 5.14.15-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.15-surface.
+
+Package: linux-image-5.14.16-surface
+Source: linux-upstream
+Version: 5.14.16-surface-2
+Architecture: amd64
+Maintainer: root <root@37ef9163043b>
+Installed-Size: 315300
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.16-surface_5.14.16-surface-2_amd64.deb
+Size: 67729502
+SHA256: 1061fec5b399d1466ddb4299ff487bda4d861aa9f8a23b8546b5962c0e2f6e20
+SHA1: 2fd33226e462ec4544339b8dbd91c178465e59fa
+MD5sum: d5746467034a9d713ef29dbd79d8bf40
+Description: Linux kernel, version 5.14.16-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.16-surface.
+
+Package: linux-image-5.14.5-surface
+Source: linux-upstream
+Version: 5.14.5-surface-1
+Architecture: amd64
+Maintainer: root <root@84581971b744>
+Installed-Size: 315756
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.5-surface_5.14.5-surface-1_amd64.deb
+Size: 68057974
+SHA256: 6f397cf078f640d6bf55f56cd07540c17be979b355eea34d8bef2fcda707675e
+SHA1: 8a916810d1c7c2c1f0f2178b7bc4fc92a7c8808d
+MD5sum: 2c8aab0eebd2cfbc9b93185ff8db9151
+Description: Linux kernel, version 5.14.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.5-surface.
+
+Package: linux-image-5.14.6-surface
+Source: linux-upstream
+Version: 5.14.6-surface-1
+Architecture: amd64
+Maintainer: root <root@e299d439a26d>
+Installed-Size: 315884
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.6-surface_5.14.6-surface-1_amd64.deb
+Size: 68089734
+SHA256: bd08a721de42a44de49a74eb1d734493b5217947e27ebefc195e945afbbbcc96
+SHA1: 83b5dd9f40b6520fdd02467c6d905af509ab2772
+MD5sum: 67516831351799f138297cca5961c16e
+Description: Linux kernel, version 5.14.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.6-surface.
+
+Package: linux-image-5.14.8-surface
+Source: linux-upstream
+Version: 5.14.8-surface-1
+Architecture: amd64
+Maintainer: root <root@8f4da1f4169a>
+Installed-Size: 315959
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.8-surface_5.14.8-surface-1_amd64.deb
+Size: 68104530
+SHA256: 82abc109fe275bb548bd858823fe59b07917343bf73df3817cd816d89d67a8cc
+SHA1: a8ba0a5d80404ad57db24bfb53afe37e9cf75ff2
+MD5sum: 6a048f9b08fb5cedf55eb0c54e3523f1
+Description: Linux kernel, version 5.14.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.8-surface.
+
+Package: linux-image-5.14.9-surface
+Source: linux-upstream
+Version: 5.14.9-surface-1
+Architecture: amd64
+Maintainer: root <root@7f1d4a713bbe>
+Installed-Size: 315971
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.14.9-surface_5.14.9-surface-1_amd64.deb
+Size: 68109578
+SHA256: 9c34e63c79bfc04cd592c70f3ad704d2c887c9f770a16cdb02a25d96fafa5d84
+SHA1: ba994f14a6a0ca0de08aa12faed4658e700254c8
+MD5sum: 6cad5493aba52b653f6c003176e475a2
+Description: Linux kernel, version 5.14.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.14.9-surface.
+
+Package: linux-image-5.15.11-surface
+Source: linux-upstream
+Version: 5.15.11-surface-1
+Architecture: amd64
+Maintainer: root <root@375c533a72f5>
+Installed-Size: 317950
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.11-surface_5.15.11-surface-1_amd64.deb
+Size: 68365138
+SHA256: 468b89f24b02d706244c786b6e11c7d87f50fb9fd1d624de97c030d5c2ac359d
+SHA1: 91f613a3c2baa0d91ea53c9439baa4700d25866a
+MD5sum: f5b72a54352819e59fc2d52ba7f564f7
+Description: Linux kernel, version 5.15.11-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.11-surface.
+
+Package: linux-image-5.15.12-surface
+Source: linux-upstream
+Version: 5.15.12-surface-1
+Architecture: amd64
+Maintainer: root <root@6442d65ef200>
+Installed-Size: 317934
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.12-surface_5.15.12-surface-1_amd64.deb
+Size: 68361606
+SHA256: 2a13e1f37ef20a8c3f28b4a7603744a1b69f38d15d87cf5ac3cf7cc3e9939bda
+SHA1: cfb4305fd4c2a1b369e40b37650f085637e3e822
+MD5sum: 464484848e3f55173b393eedf313e372
+Description: Linux kernel, version 5.15.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.12-surface.
+
+Package: linux-image-5.15.14-surface
+Source: linux-upstream
+Version: 5.15.14-surface-1
+Architecture: amd64
+Maintainer: root <root@ecefb1fb9e40>
+Installed-Size: 317947
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.14-surface_5.15.14-surface-1_amd64.deb
+Size: 68374334
+SHA256: 75f7f48e4037ddb3f328251740e2eaa428c957285b911a988e9963563360bba4
+SHA1: 7f237a412c2875a141c0e41c499286bf7f4bd215
+MD5sum: 9437acdffc4490e7f5ba0109157f1f22
+Description: Linux kernel, version 5.15.14-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.14-surface.
+
+Package: linux-image-5.15.3-surface
+Source: linux-upstream
+Version: 5.15.3-surface-1
+Architecture: amd64
+Maintainer: root <root@85f43f44c514>
+Installed-Size: 317742
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.3-surface_5.15.3-surface-1_amd64.deb
+Size: 68329794
+SHA256: 0e31eaf32b368c2cc331d0e055bc167c2d249e111215ba71a933003db719c199
+SHA1: c40b272f6a2c07faca4d6c67c7337603bb508dea
+MD5sum: acfacb9670083f3b5e64026f0680c2e6
+Description: Linux kernel, version 5.15.3-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.3-surface.
+
+Package: linux-image-5.15.5-surface
+Source: linux-upstream
+Version: 5.15.5-surface-1
+Architecture: amd64
+Maintainer: root <root@863b79005c6b>
+Installed-Size: 317858
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.5-surface_5.15.5-surface-1_amd64.deb
+Size: 68361490
+SHA256: 9da89051a4743fa08829f9d12fd67cdf9cc79d3327d0a1e5fa128cf44cd05caf
+SHA1: 8362e9e1e7ae390f87c7472ffd2127f29d98ed86
+MD5sum: 645e1b5e8f22d77f99209a50f6512560
+Description: Linux kernel, version 5.15.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.5-surface.
+
+Package: linux-image-5.15.6-surface
+Source: linux-upstream
+Version: 5.15.6-surface-1
+Architecture: amd64
+Maintainer: root <root@b7ce4312474f>
+Installed-Size: 317882
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.15.6-surface_5.15.6-surface-1_amd64.deb
+Size: 68352822
+SHA256: b5e4659460a70003391a7daad1d41dc0cf2a5e5369d7b127c490178380bd17d4
+SHA1: 72f58fc9ddd24287ff1c3046ec573defe9cebcdb
+MD5sum: a3c5af6c279130e77ee512defaa01f59
+Description: Linux kernel, version 5.15.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.15.6-surface.
+
+Package: linux-image-5.16.11-surface
+Source: linux-upstream
+Version: 5.16.11-surface-1
+Architecture: amd64
+Maintainer: root <root@510c7967f03b>
+Installed-Size: 319806
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.16.11-surface_5.16.11-surface-1_amd64.deb
+Size: 68955366
+SHA256: 79e2f261d4ddf7dba04939f6f37da2ed1ee06337c897299bc0e33e77b2020566
+SHA1: 5f513f66f1fd469d32c2418524cd0838ed8f4eaf
+MD5sum: 00038aab049004f80a4cb5fd98d50cf4
+Description: Linux kernel, version 5.16.11-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.16.11-surface.
+
+Package: linux-image-5.16.13-surface
+Source: linux-upstream
+Version: 5.16.13-surface-1
+Architecture: amd64
+Maintainer: root <root@80c62fc9aa3e>
+Installed-Size: 319814
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.16.13-surface_5.16.13-surface-1_amd64.deb
+Size: 68978614
+SHA256: a183729fef28ba538bbea2e4105f2e9885712d5e145965b5fdd775c294c098c3
+SHA1: 265471041838b3f05611e1ef8e7486dd27f97a08
+MD5sum: 5f2d268b0e9917cb1d7d15b683bdd755
+Description: Linux kernel, version 5.16.13-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.16.13-surface.
+
+Package: linux-image-5.16.5-surface
+Source: linux-upstream
+Version: 5.16.5-surface-1
+Architecture: amd64
+Maintainer: root <root@696bfd6e5bf8>
+Installed-Size: 319467
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.16.5-surface_5.16.5-surface-1_amd64.deb
+Size: 68904346
+SHA256: 70384fe37ca4a66774ba106a56934747b7e7248e0b23226d38e05345ae5dd140
+SHA1: 555c03f3d43fa7a56f6cdcfc344e532bba6df817
+MD5sum: 9625ebd43ed410f342335fedd22e25ab
+Description: Linux kernel, version 5.16.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.16.5-surface.
+
+Package: linux-image-5.16.7-surface
+Source: linux-upstream
+Version: 5.16.7-surface-1
+Architecture: amd64
+Maintainer: root <root@4b73927dd2af>
+Installed-Size: 319471
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.16.7-surface_5.16.7-surface-1_amd64.deb
+Size: 68914834
+SHA256: 010d6a37226f9f2b32a5db7d4350f4cef75c10875cfbe7bf9d960d54992f5373
+SHA1: e148660e31747f120d5a71d0c4f82ec38e67b790
+MD5sum: 086b288f5df63a62ac32199df710246f
+Description: Linux kernel, version 5.16.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.16.7-surface.
+
+Package: linux-image-5.16.8-surface
+Source: linux-upstream
+Version: 5.16.8-surface-1
+Architecture: amd64
+Maintainer: root <root@29ad1580d103>
+Installed-Size: 319481
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.16.8-surface_5.16.8-surface-1_amd64.deb
+Size: 68906630
+SHA256: a460a10d18f023c902cb4b0ef553c97b5815c53ee9233a64148548a0ce47a02f
+SHA1: 16a2006ba1dbbe63fb5aea21bd58a2b293576195
+MD5sum: 55cc5b59a0e2a1d590118bc3db439ccf
+Description: Linux kernel, version 5.16.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.16.8-surface.
+
+Package: linux-image-5.17.4-surface
+Source: linux-upstream
+Version: 5.17.4-surface-1
+Architecture: amd64
+Maintainer: root <root@442656199c8b>
+Installed-Size: 321710
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-5.17.4-surface_5.17.4-surface-1_amd64.deb
+Size: 69395250
+SHA256: da35a2763431e4a3b861e690c824d7c8db9d5f5bbaabefc26efdeb3ac3bf2483
+SHA1: 8316b3bc97839fcb74f08b9d2f8e4a0b8b9909a0
+MD5sum: 139d68121228cc6866f3161f9aa8ba71
+Description: Linux kernel, version 5.17.4-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.17.4-surface.
+
+Package: linux-image-5.17.5-surface
+Source: linux-upstream
+Version: 5.17.5-surface-3
+Architecture: amd64
+Maintainer: root <root@21fbd0e057d1>
+Installed-Size: 321726
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.17.5-surface_5.17.5-surface-3_amd64.deb
+Size: 69398026
+SHA256: 323000c2543b442b4bc2a19a1442a82005896963c84c9cc6c42460b5a4b627e5
+SHA1: 980108f5bc790dba366b740577a430697960862d
+MD5sum: ed5ff551dd40dddab7c9f099921835a7
+Description: Linux kernel, version 5.17.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.17.5-surface.
+
+Package: linux-image-5.17.7-surface
+Source: linux-upstream
+Version: 5.17.7-surface-1
+Architecture: amd64
+Maintainer: root <root@0ef8b5d0bed1>
+Installed-Size: 322019
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.17.7-surface_5.17.7-surface-1_amd64.deb
+Size: 69430678
+SHA256: db83118b602832d94b97a3981b5051791ea5018fcbd19ae7c0bdf89f1ccceb57
+SHA1: a0512e75be0ac9b20706bb048c519b7a7d90d294
+MD5sum: f6f0415ad783178e81c1d35704c01bd8
+Description: Linux kernel, version 5.17.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.17.7-surface.
+
+Package: linux-image-5.17.9-surface
+Source: linux-upstream
+Version: 5.17.9-surface-2
+Architecture: amd64
+Maintainer: root <root@7f48420a955a>
+Installed-Size: 322041
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.17.9-surface_5.17.9-surface-2_amd64.deb
+Size: 69433254
+SHA256: 84ec866bd3f0e16e0444a2392b76f9c656acbb95a061e70fd73df5de226f278d
+SHA1: a0b5a04c9bb23d8e2882753d5181f9216e5e26cd
+MD5sum: 307a30e0c8a6051a26c24da09c86d9c8
+Description: Linux kernel, version 5.17.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.17.9-surface.
+
+Package: linux-image-5.18.1-surface
+Source: linux-upstream
+Version: 5.18.1-surface-1
+Architecture: amd64
+Maintainer: root <root@3f1e22a18e3d>
+Installed-Size: 321533
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.1-surface_5.18.1-surface-1_amd64.deb
+Size: 69495942
+SHA256: 59d0d2ea6e17d46a37b62542d5be1ff49fbac5332c764a427006978087449a72
+SHA1: b96c90561cf5feab9151ba4446f1dc49d10fd259
+MD5sum: 6145097a420f260831c69f17e5923f78
+Description: Linux kernel, version 5.18.1-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.1-surface.
+
+Package: linux-image-5.18.10-surface
+Source: linux-upstream
+Version: 5.18.10-surface-1
+Architecture: amd64
+Maintainer: root <root@4fd420784964>
+Installed-Size: 330456
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.10-surface_5.18.10-surface-1_amd64.deb
+Size: 70631406
+SHA256: 92a8eb501245d46c8e0c4a282b65b16bb93799f7c5dbf5162a6aecfe1ec2256b
+SHA1: 329c6b030a6ae3b2424306a4f804d18e2fb9e875
+MD5sum: 2a2f9bd106916b28b7bf63b88094dd19
+Description: Linux kernel, version 5.18.10-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.10-surface.
+
+Package: linux-image-5.18.12-surface
+Source: linux-upstream
+Version: 5.18.12-surface-1
+Architecture: amd64
+Maintainer: root <root@aa8e47362d2f>
+Installed-Size: 330478
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.12-surface_5.18.12-surface-1_amd64.deb
+Size: 70653774
+SHA256: 8454156a31af7fb0c6f16976df3a569d0adb2fec3ccfb1619900c285a7367c8b
+SHA1: 89dc8b421310c41438fde0f454e6ea2e39753423
+MD5sum: c586c26c2f0c7d2e4c394df654c352bb
+Description: Linux kernel, version 5.18.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.12-surface.
+
+Package: linux-image-5.18.16-surface
+Source: linux-upstream
+Version: 5.18.16-surface-1
+Architecture: amd64
+Maintainer: root <root@a867df7980ba>
+Installed-Size: 350375
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.16-surface_5.18.16-surface-1_amd64.deb
+Size: 72810210
+SHA256: f387ca7af4eb849113a6d4b8af6d127795072b6507a426aff66eb36c4ced80e9
+SHA1: 8b024e5ae21ece5c078a5667cba9dc585c6647cc
+MD5sum: e8fbf2cd483db2c2ee23cb8641eb4b16
+Description: Linux kernel, version 5.18.16-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.16-surface.
+
+Package: linux-image-5.18.3-surface
+Source: linux-upstream
+Version: 5.18.3-surface-1
+Architecture: amd64
+Maintainer: root <root@406e1744bb20>
+Installed-Size: 330416
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.3-surface_5.18.3-surface-1_amd64.deb
+Size: 70641566
+SHA256: 5a6a0d7c8b67b979ac8d6e5782aac3d2f7da124f3d1235331016ac0c9de279a7
+SHA1: 9136f4c8cfaf6443924397b47ecb321a9397cdb5
+MD5sum: 5a26271bae690b64519eaa65b17b7e61
+Description: Linux kernel, version 5.18.3-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.3-surface.
+
+Package: linux-image-5.18.4-surface
+Source: linux-upstream
+Version: 5.18.4-surface-1
+Architecture: amd64
+Maintainer: root <root@8c379a2bef5a>
+Installed-Size: 330427
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.4-surface_5.18.4-surface-1_amd64.deb
+Size: 70655530
+SHA256: 8f14f1e326f86e71e7b5210c04483b421a8f057ef613cb71ef489a58fab8aa0a
+SHA1: 3588203828f8d7413c6a7f27720f5702da21c82c
+MD5sum: 90da391736989cb3fa6a38b6f72980a8
+Description: Linux kernel, version 5.18.4-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.4-surface.
+
+Package: linux-image-5.18.5-surface
+Source: linux-upstream
+Version: 5.18.5-surface-1
+Architecture: amd64
+Maintainer: root <root@e42b9e2a7396>
+Installed-Size: 330426
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.5-surface_5.18.5-surface-1_amd64.deb
+Size: 70631398
+SHA256: cf987cf161f0378eebe7fbba256a32a4efb9b46d278574fd905faccd34782126
+SHA1: e0c90d1542deb3dcbb31c557cf37f193f7f46816
+MD5sum: 56554d6ece805ff78d827dce8ba9503c
+Description: Linux kernel, version 5.18.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.5-surface.
+
+Package: linux-image-5.18.7-surface
+Source: linux-upstream
+Version: 5.18.7-surface-1
+Architecture: amd64
+Maintainer: root <root@bb536edf467b>
+Installed-Size: 330436
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.7-surface_5.18.7-surface-1_amd64.deb
+Size: 70645862
+SHA256: b2603354133a221fa7861b4c284e370ee797a664fffd4c1e54ab6b800d308bd0
+SHA1: 35d6bfb0942b3a3e514fd22cc0f4f8ab53aa667d
+MD5sum: 11a08a4768e8a1aa7bda97c0a12972e0
+Description: Linux kernel, version 5.18.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.7-surface.
+
+Package: linux-image-5.18.9-surface
+Source: linux-upstream
+Version: 5.18.9-surface-1
+Architecture: amd64
+Maintainer: root <root@1972ba865b86>
+Installed-Size: 330442
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.18.9-surface_5.18.9-surface-1_amd64.deb
+Size: 70646798
+SHA256: 6acc51d1d3130a172b6631f542f528e79d958c7d6754cabd6734a48cbd5a1dfd
+SHA1: 19e8a08f947955998e6201904cbad25f871948c8
+MD5sum: cda1eaae00e489190e634226d4806e4f
+Description: Linux kernel, version 5.18.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.18.9-surface.
+
+Package: linux-image-5.19.13-surface
+Source: linux-upstream
+Version: 5.19.13-surface-1
+Architecture: amd64
+Maintainer: root <root@67b4af4e49fe>
+Installed-Size: 348046
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.13-surface_5.19.13-surface-1_amd64.deb
+Size: 72849154
+SHA256: 24db2320c2a05dafd27016123a477f18ad22fd49f4c6beace7324d1672d26578
+SHA1: 66d85fc1933808d72d6244893383bff98ca66f71
+MD5sum: 52b13a2dc0300edc5090fede5735ed3f
+Description: Linux kernel, version 5.19.13-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.13-surface.
+
+Package: linux-image-5.19.2-surface
+Source: linux-upstream
+Version: 5.19.2-surface-1
+Architecture: amd64
+Maintainer: root <root@269cde02780c>
+Installed-Size: 348035
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.2-surface_5.19.2-surface-1_amd64.deb
+Size: 72853874
+SHA256: 1f8c9ddeb14481f2403fcdddcbf6f7e834f3183c2582cb6fac575d4442c43c14
+SHA1: 985b24f31a4abf3dea999971cd832eb65a28541d
+MD5sum: bf060c64e52477540d19b6b3bb92edfe
+Description: Linux kernel, version 5.19.2-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.2-surface.
+
+Package: linux-image-5.19.4-surface
+Source: linux-upstream
+Version: 5.19.4-surface-1
+Architecture: amd64
+Maintainer: root <root@02156596e63e>
+Installed-Size: 348065
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.4-surface_5.19.4-surface-1_amd64.deb
+Size: 72851838
+SHA256: 98376e20e518b40972d86d2646b0c0f053eb892394c8147817f3a432f5aebe9f
+SHA1: 6ba83c962b474585b90d7f481ad4019b4596b9c4
+MD5sum: 4cdc6c8d79fda570adee3dee333a8208
+Description: Linux kernel, version 5.19.4-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.4-surface.
+
+Package: linux-image-5.19.6-surface
+Source: linux-upstream
+Version: 5.19.6-surface-1
+Architecture: amd64
+Maintainer: root <root@aa566a7dfb3e>
+Installed-Size: 348074
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.6-surface_5.19.6-surface-1_amd64.deb
+Size: 72858402
+SHA256: 3de1dfd79d82921a14cef89bee10a31709fee3acd554a1d7f99cac962b334e60
+SHA1: 1aedf2d39fd5a46359fd7f581afd43b2d61e5595
+MD5sum: 8d4db2911f67694b73dde56456cf73cb
+Description: Linux kernel, version 5.19.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.6-surface.
+
+Package: linux-image-5.19.7-surface
+Source: linux-upstream
+Version: 5.19.7-surface-1
+Architecture: amd64
+Maintainer: root <root@3e0014b38406>
+Installed-Size: 348081
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.7-surface_5.19.7-surface-1_amd64.deb
+Size: 72857990
+SHA256: 34cccc4bee8118bcab57159be1fd346ecd306288ae5f483e437fe3a7b95c0413
+SHA1: a4392b8f80bfecd5ebe82513855a092d64fbb8b8
+MD5sum: 81e74514fb6e22411fe232de24d932e4
+Description: Linux kernel, version 5.19.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.7-surface.
+
+Package: linux-image-5.19.8-surface
+Source: linux-upstream
+Version: 5.19.8-surface-1
+Architecture: amd64
+Maintainer: root <root@c88b8ae07019>
+Installed-Size: 348085
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-5.19.8-surface_5.19.8-surface-1_amd64.deb
+Size: 72865486
+SHA256: 32d09ce370bf2c205108b64b13528f92304666e4ed77e33871eb08bd10fcd13d
+SHA1: 62e8e44a577d410a3781b64c5e15084d06fe9995
+MD5sum: 3578fc4692eea8bd74614c63cd0d0bcf
+Description: Linux kernel, version 5.19.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.19.8-surface.
+
+Package: linux-image-6.0.1-surface
+Source: linux-upstream
+Version: 6.0.1-surface-1
+Architecture: amd64
+Maintainer: root <root@0fd638beccca>
+Installed-Size: 351629
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.1-surface_6.0.1-surface-1_amd64.deb
+Size: 73486778
+SHA256: e9cd89bfdc00bbf4ad69809a5d4076b2494f8207d2ffcf27baf41a7c63dca10c
+SHA1: 15723d8923f83f619d6781e01f13cfc9d74ed49f
+MD5sum: fa72ba851e60eee23b22cbab66ab3443
+Description: Linux kernel, version 6.0.1-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.1-surface.
+
+Package: linux-image-6.0.12-surface
+Source: linux-upstream
+Version: 6.0.12-surface-5
+Architecture: amd64
+Maintainer: root <root@a4c646d9329b>
+Installed-Size: 354422
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.12-surface_6.0.12-surface-5_amd64.deb
+Size: 73681430
+SHA256: 3478140544637e66d75dd2a669b9ce0139bf27bb29dbd1072caffa921e4a6303
+SHA1: 488ebe416467cd9214664ae9944a553f012c50ca
+MD5sum: 404b1ae7df9caf7cefbce1692280b230
+Description: Linux kernel, version 6.0.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.12-surface.
+
+Package: linux-image-6.0.3-surface
+Source: linux-upstream
+Version: 6.0.3-surface-1
+Architecture: amd64
+Maintainer: root <root@70348b532a45>
+Installed-Size: 352201
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.3-surface_6.0.3-surface-1_amd64.deb
+Size: 73498114
+SHA256: 1bbbba3bb1aeab7b4c32d14470fa130a9a6f92f146d4d4b7e8f13050cf787834
+SHA1: a5f479fb9acf40ae2d575de0706600f61d26fb15
+MD5sum: 4fe320a357165e76a3d2f6240ada18b8
+Description: Linux kernel, version 6.0.3-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.3-surface.
+
+Package: linux-image-6.0.6-surface
+Source: linux-upstream
+Version: 6.0.6-surface-1
+Architecture: amd64
+Maintainer: root <root@03204b5f5944>
+Installed-Size: 352212
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.6-surface_6.0.6-surface-1_amd64.deb
+Size: 73528598
+SHA256: a53b67f5830d4e74245b6a510e517280cf7b448f5d7ea6266a0de957636b2514
+SHA1: 6e992ba4e33255af3fceabfd3a5ec659d0b66e93
+MD5sum: 7dc1b64f0b5b145ddd926ca479380f2e
+Description: Linux kernel, version 6.0.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.6-surface.
+
+Package: linux-image-6.0.7-surface
+Source: linux-upstream
+Version: 6.0.7-surface-2
+Architecture: amd64
+Maintainer: root <root@252812488fd8>
+Installed-Size: 352229
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.7-surface_6.0.7-surface-2_amd64.deb
+Size: 73518370
+SHA256: 2e63383cba8a44dd02e11e82d079f051eb2e168296dfc2983972ce5afb81c45b
+SHA1: 8eb1f534d4b65da1b9d7dc765a84c1664168317f
+MD5sum: 24a204ca3fe2328701ea7a5826283645
+Description: Linux kernel, version 6.0.7-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.7-surface.
+
+Package: linux-image-6.0.8-surface
+Source: linux-upstream
+Version: 6.0.8-surface-3
+Architecture: amd64
+Maintainer: root <root@031da3e085d3>
+Installed-Size: 352248
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.8-surface_6.0.8-surface-3_amd64.deb
+Size: 73517274
+SHA256: 5f9a39014dd7ba743e4be7fa21a85546b41fa0891bd48dc16e0748cb26dff5c3
+SHA1: 2e3cdc59ad7d78235adfeed0c3863cefeb680eff
+MD5sum: 626a3b85eb0fb1f7aaaa06d05bdc0b3c
+Description: Linux kernel, version 6.0.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.8-surface.
+
+Package: linux-image-6.0.9-surface
+Source: linux-upstream
+Version: 6.0.9-surface-1
+Architecture: amd64
+Maintainer: root <root@84acce385828>
+Installed-Size: 352277
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.0.9-surface_6.0.9-surface-1_amd64.deb
+Size: 73524754
+SHA256: c00cfbcc691d2d2106ca73b1283bc3d1636d96dc396e61f73c3488c3c60fb61b
+SHA1: 9bb380dc1a83d7c5092af72d37830d740a26d91f
+MD5sum: 0f878a00bc38eb7b74be92dd097acaa5
+Description: Linux kernel, version 6.0.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.9-surface.
+
+Package: linux-image-6.1.11-surface
+Source: linux-upstream
+Version: 6.1.11-surface-1
+Architecture: amd64
+Maintainer: root <root@e321ce63ddce>
+Installed-Size: 355546
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.11-surface_6.1.11-surface-1_amd64.deb
+Size: 73819546
+SHA256: 7bf0715080ab4bbd5e521f51ee4c3849c439cb8c1ad04834260bd6bd8c8ea9ca
+SHA1: b06e1da76f0914ca5e3c705077ca2f2779bccb98
+MD5sum: 7242303106a42131f9cf820fd17537c8
+Description: Linux kernel, version 6.1.11-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.11-surface.
+
+Package: linux-image-6.1.12-surface
+Source: linux-upstream
+Version: 6.1.12-surface-2
+Architecture: amd64
+Maintainer: root <root@6004caea882e>
+Installed-Size: 355658
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.12-surface_6.1.12-surface-2_amd64.deb
+Size: 73825354
+SHA256: 134ff6f6638bff727d143d51256653ac30523c8cf4a65d4a05ec4dc85e78e7a4
+SHA1: d8c7fa6504e180aad3240d727d93eef576ab94e3
+MD5sum: 9f9a20a78040c50ca6b1f2f1e331fc31
+Description: Linux kernel, version 6.1.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.12-surface.
+
+Package: linux-image-6.1.13-surface
+Source: linux-upstream
+Version: 6.1.13-surface-1
+Architecture: amd64
+Maintainer: root <root@7e90ac3f38f7>
+Installed-Size: 355666
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.13-surface_6.1.13-surface-1_amd64.deb
+Size: 73819346
+SHA256: 1de1298922ff613af1d3001515e06cbbc7c5ced3130fbbd629087b81b40064fc
+SHA1: 26601c84517fa3cafe94ab4559abb163a62a026c
+MD5sum: d7b3d7e55a2466697acf99ea6db08ae4
+Description: Linux kernel, version 6.1.13-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.13-surface.
+
+Package: linux-image-6.1.2-surface
+Source: linux-upstream
+Version: 6.1.2-surface-3
+Architecture: amd64
+Maintainer: root <root@9a71474b9e6b>
+Installed-Size: 359436
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.2-surface_6.1.2-surface-3_amd64.deb
+Size: 74286150
+SHA256: bcf25fa211d6689e9f4c462b65f9dc8f38330a539744d6b18d4e24ca4ecb04ee
+SHA1: 7eda544daa5ba839cf230b0dd8aa8152f5c6efa0
+MD5sum: c2b288bc8a6abeaf8506d221735bdbfb
+Description: Linux kernel, version 6.1.2-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.2-surface.
+
+Package: linux-image-6.1.3-surface
+Source: linux-upstream
+Version: 6.1.3-surface-1
+Architecture: amd64
+Maintainer: root <root@1dc82265d5e9>
+Installed-Size: 359436
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.3-surface_6.1.3-surface-1_amd64.deb
+Size: 74278386
+SHA256: 0d7dff2a6e14ec1ff1d65484e54113339113250bd92b5ed9d5a89e14e94b906a
+SHA1: 1596979fdb1d778b342df305f81034a57fd9ae51
+MD5sum: acb16de4e3015cd62a46a5f5d883d7f0
+Description: Linux kernel, version 6.1.3-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.3-surface.
+
+Package: linux-image-6.1.6-surface
+Source: linux-upstream
+Version: 6.1.6-surface-2
+Architecture: amd64
+Maintainer: root <root@dcecdc35f8f7>
+Installed-Size: 355380
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.6-surface_6.1.6-surface-2_amd64.deb
+Size: 73792738
+SHA256: d148323ff3722b6332f0f2698e45fb7c0e1494bdf772231fe58e48a6afa8e32b
+SHA1: 19167510512f679968e205f01f30d91297bc0121
+MD5sum: 441d867c08a32ef4956ad602c82ffdef
+Description: Linux kernel, version 6.1.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.6-surface.
+
+Package: linux-image-6.1.8-surface
+Source: linux-upstream
+Version: 6.1.8-surface-1
+Architecture: amd64
+Maintainer: root <root@30f2f5418ce8>
+Installed-Size: 355406
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.8-surface_6.1.8-surface-1_amd64.deb
+Size: 73791058
+SHA256: 8713353d0ab36547074d0ba50835ab076f988f6c1134ec7f8b05f30e6e75c99a
+SHA1: 8af8ad5ec0eec9c36b860eeda6a0d0b49e011ec5
+MD5sum: 38bc849e367790d38a3d246ba59b54f4
+Description: Linux kernel, version 6.1.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.8-surface.
+
+Package: linux-image-6.1.9-surface
+Source: linux-upstream
+Version: 6.1.9-surface-1
+Architecture: amd64
+Maintainer: root <root@948f86482e0c>
+Installed-Size: 355517
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.1.9-surface_6.1.9-surface-1_amd64.deb
+Size: 73797426
+SHA256: 949b893349973ecbd61f8b4d79ba0edce624d21cd0d9276e153fdbe3957c81c2
+SHA1: 9de91b48ac0dcca69028ec7843cf41bc28422240
+MD5sum: f3d7aace2867b2ad695a5a80efa10926
+Description: Linux kernel, version 6.1.9-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.9-surface.
+
+Package: linux-image-6.2.1-surface
+Source: linux-upstream
+Version: 6.2.1-surface-1
+Architecture: amd64
+Maintainer: root <root@dd3a432365f8>
+Installed-Size: 427516
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.1-surface_6.2.1-surface-1_amd64.deb
+Size: 81484722
+SHA256: 65e9d3e7452fa03bba2698a3e27749f4eab22425aa621392fdea8776e3005948
+SHA1: ed62bbed1fc3d9ebdd5f753aab23d5d248540090
+MD5sum: 7296086e5f00dba7ec207a92bfff4763
+Description: Linux kernel, version 6.2.1-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.1-surface.
+
+Package: linux-image-6.2.10-surface
+Source: linux-upstream
+Version: 6.2.10-surface-1
+Architecture: amd64
+Maintainer: root <root@edefc8922b8d>
+Installed-Size: 419955
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.10-surface_6.2.10-surface-1_amd64.deb
+Size: 80639014
+SHA256: 30e40e4b14559ae06998cbecf6abfa1c067b81e8ebfd9ec53f58f5d27ac8c6cb
+SHA1: 15d8090db7ad5a6c6d0e13b964b500e829420d0c
+MD5sum: 148b67b28c3ace3e70ecf20db95671e0
+Description: Linux kernel, version 6.2.10-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.10-surface.
+
+Package: linux-image-6.2.12-surface
+Source: linux-upstream
+Version: 6.2.12-surface-1
+Architecture: amd64
+Maintainer: root <root@3b346b1b4b1e>
+Installed-Size: 419966
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.12-surface_6.2.12-surface-1_amd64.deb
+Size: 80609390
+SHA256: 582d63d78b492ea60ed3172400e59aa491820fb2bdde161e40625bd5bd0c7e18
+SHA1: 0a90c4515597acd62b3b00bb45a7c196815eecd5
+MD5sum: ce0fd4d3507aa18e98a1081b10122415
+Description: Linux kernel, version 6.2.12-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.12-surface.
+
+Package: linux-image-6.2.13-surface
+Source: linux-upstream
+Version: 6.2.13-surface-1
+Architecture: amd64
+Maintainer: root <root@b1ff4f576778>
+Installed-Size: 419973
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.13-surface_6.2.13-surface-1_amd64.deb
+Size: 80621274
+SHA256: 25ecc0d2f1bcfbcded4860b290759fb9effd7094a50e337f69b6bcd98bf12e4b
+SHA1: 379e9efb2c6f6ee73f5c2eb569fe2c1c5c2d3f9e
+MD5sum: ab1be95e0f3cc6d3f3cf0ef5e2905266
+Description: Linux kernel, version 6.2.13-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.13-surface.
+
+Package: linux-image-6.2.14-surface
+Source: linux-upstream
+Version: 6.2.14-surface-1
+Architecture: amd64
+Maintainer: root <root@942713789bca>
+Installed-Size: 419983
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.14-surface_6.2.14-surface-1_amd64.deb
+Size: 80637986
+SHA256: 368c43e68273f99e28aa4a387d588a8b2655bc2ebb85cccf785c3ce24e8450c3
+SHA1: 94394ed09bd1aa8f209643ffecd5e12f50c302ab
+MD5sum: 59895abd3e29a3504301faf1a4b1d8c1
+Description: Linux kernel, version 6.2.14-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.14-surface.
+
+Package: linux-image-6.2.2-surface
+Source: linux-upstream
+Version: 6.2.2-surface-2
+Architecture: amd64
+Maintainer: root <root@fe33fa8a33cb>
+Installed-Size: 427518
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.2-surface_6.2.2-surface-2_amd64.deb
+Size: 81512350
+SHA256: 5aad112b47fa1fb30216fd5c968574e62b07a3bc9243185fb4dc7453467f856b
+SHA1: 29895e4fb8b40d28b31c955736cca1dc7dd56f1a
+MD5sum: ae1f5470af7128fab4833f6279127717
+Description: Linux kernel, version 6.2.2-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.2-surface.
+
+Package: linux-image-6.2.5-surface
+Source: linux-upstream
+Version: 6.2.5-surface-1
+Architecture: amd64
+Maintainer: root <root@c56cf0ba1a81>
+Installed-Size: 419891
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.5-surface_6.2.5-surface-1_amd64.deb
+Size: 80612322
+SHA256: c16629702c0ad12fe11409e3f8e5e222a476ad80359aec45174e2fee7cfffb9f
+SHA1: e2525a9add9832df5a31d7b4111ec37a5979e32c
+MD5sum: a0aa70ba2c45f6b590a454261c692adf
+Description: Linux kernel, version 6.2.5-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.5-surface.
+
+Package: linux-image-6.2.6-surface
+Source: linux-upstream
+Version: 6.2.6-surface-1
+Architecture: amd64
+Maintainer: root <root@d6b5dde4914c>
+Installed-Size: 419910
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.6-surface_6.2.6-surface-1_amd64.deb
+Size: 80639082
+SHA256: 570a83ea6714a6845470bf0f9e8f56574348fc45208873ca78d2138ba0861299
+SHA1: f556b1d25651e878e31f6b5668b369e4a5471618
+MD5sum: c348533e09b7c088bfa4c1cb453c0547
+Description: Linux kernel, version 6.2.6-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.6-surface.
+
+Package: linux-image-6.2.8-surface
+Source: linux-upstream
+Version: 6.2.8-surface-1
+Architecture: amd64
+Maintainer: root <root@502b3132b034>
+Installed-Size: 419887
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.2.8-surface_6.2.8-surface-1_amd64.deb
+Size: 80604062
+SHA256: 6e49c5666d9d7c47825fa263185c08c89fb8f83e90d8009b762642dca8fefd7b
+SHA1: c8cc80b7f7868e8d6ea8034d04add674601c5c59
+MD5sum: a0979a2824e8142744744ccc47b1ef3f
+Description: Linux kernel, version 6.2.8-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.8-surface.
+
+Package: linux-image-6.3.1-surface
+Source: linux-upstream
+Version: 6.3.1-surface-1
+Architecture: amd64
+Maintainer: root <root@3100333aa118>
+Installed-Size: 423205
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.3.1-surface_6.3.1-surface-1_amd64.deb
+Size: 81117142
+SHA256: ca5f0be90663f5112d08bc7413b6840f7c7bc8686d1da6b6dfa3efd64c17ad67
+SHA1: 3dfb24f32a73a72117b3bbe986c1862a8096a943
+MD5sum: de0b6779234b3b2d5dd4a029f385224f
+Description: Linux kernel, version 6.3.1-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.3.1-surface.
+
+Package: linux-image-6.3.2-surface
+Source: linux-upstream
+Version: 6.3.2-surface-1
+Architecture: amd64
+Maintainer: root <root@c542829af65c>
+Installed-Size: 423298
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-upstream/linux-image-6.3.2-surface_6.3.2-surface-1_amd64.deb
+Size: 81131870
+SHA256: 19d8b4fcf70211d7ddc5f6dd0d3a7568c02928e8ad9fc6061cfed4a5b37802c8
+SHA1: 83d24edc5bb48c4bffbccd34ba55b5a0e8f6380c
+MD5sum: ae0253953490f1e5c7668feca4caead9
+Description: Linux kernel, version 6.3.2-surface
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.3.2-surface.
+
+Package: linux-image-surface
+Source: linux-surface
+Version: 6.3.2-surface-1
+Architecture: amd64
+Maintainer: surfacebot <surfacebot@users.noreply.github.com>
+Installed-Size: 7
+Depends: linux-image-6.3.2-surface (= 6.3.2-surface-1)
+Recommends: iptsd
+Homepage: https://github.com/linux-surface/linux-surface
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-surface/linux-image-surface_6.3.2-surface-1_amd64.deb
+Size: 2466
+SHA256: 9e1cc61d6ac7192bc269c25cb4972eab9d76e067ab227f95c94c28fc11c2a6e8
+SHA1: 8dfcae3f66db00e19d67ab2e3fc594d6a7e61326
+MD5sum: 1eb2cb38fc1e3b816e47a682bde7e7a0
+Description:
+  Meta-package for linux-surface kernel images.
+
+Package: linux-image-surface-lts
+Source: linux-surface-lts
+Version: 4.19.206-surface-lts-1
+Architecture: amd64
+Maintainer: surfacebot <surfacebot@users.noreply.github.com>
+Installed-Size: 7
+Depends: linux-image-4.19.206-surface-lts (= 4.19.206-surface-lts-1)
+Homepage: https://github.com/linux-surface/linux-surface
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-surface-lts/linux-image-surface-lts_4.19.206-surface-lts-1_amd64.deb
+Size: 2474
+SHA256: eaf9c7c603ccb0126d7597da262f06c12a6a0abca6421e8e4bb03f47596cf580
+SHA1: 89259b3038dd6aa9bce382ef2bf3c939e875e757
+MD5sum: af80ded5f8e4af83699708540099b1b9
+Description:
+  Meta-package for linux-surface kernel images.
+
+Package: linux-surface-secureboot-mok
+Version: 20230419-1
+Architecture: amd64
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Installed-Size: 18
+Depends: mokutil, grep
+Priority: optional
+Section: misc
+Filename: pool/main/l/linux-surface-secureboot-mok/linux-surface-secureboot-mok_20230419-1_amd64.deb
+Size: 5596
+SHA256: 2ceef1b4cbe25a16bd038243f0a5aac68c302d0e5b0fed0644756a6140003b0e
+SHA1: fa7c63bda5547f09cec6accff260e1785959c343
+MD5sum: 945ed0e40703b2386b9b86a88273b081
+Description: Secure-boot machine owner key for linux-surface kernels
+
+Package: surface-control
+Version: 0.4.3-2
+Architecture: amd64
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Installed-Size: 853
+Depends: libc6 (>= 2.19), libgcc1 (>= 1:4.9.2), libudev1
+Priority: optional
+Section: misc
+Filename: pool/main/s/surface-control/surface-control_0.4.3-2_amd64.deb
+Size: 311188
+SHA256: b24286c0aa57dfa3d4d5b9539121e7755b36671c93e22ed6212bb72d735199d0
+SHA1: 839caf0e0f649ba7a5e9f057afb14addf6dccfeb
+MD5sum: ec4c093e7d179df71e2f95df6e9bbc82
+Description: Control various aspects of Microsoft Surface devices on Linux from the Command-Line
+
+Package: surface-dtx-daemon
+Version: 0.3.4-1
+Architecture: amd64
+Maintainer: Maximilian Luz <luzmaximilian@gmail.com>
+Installed-Size: 6044
+Depends: libc6 (>= 2.19), libgcc1 (>= 1:4.9.2), libdbus-1-3
+Priority: optional
+Section: misc
+Filename: pool/main/s/surface-dtx-daemon/surface-dtx-daemon_0.3.4-1_amd64.deb
+Size: 1214222
+SHA256: 68e50ca3e400db90ba144e7292bdb03686dcc54e540e98a1e37d60d84629676c
+SHA1: c7741dfd6ac3a8c0488d2345cdf0b7938df67b35
+MD5sum: 7e142c5ca326cb9ca0d6e41436d51dc6
+Description: Surface Detachment System (DTX) Daemon
+

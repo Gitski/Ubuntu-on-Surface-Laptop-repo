@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: com.github.linux-surface.linux-surface
+Label: linux-surface
+Codename: release
+Date: Sun, 14 May 2023 00:38:21 UTC
+Architectures: amd64
+Components: main
+Description: APT repository for linux-surface
+MD5Sum:
+ ccb79e91c70c71086db3c0d275c88cc9 99211 main/binary-amd64/Packages
+ 484d01cf233c3af359d7d7d3c7763add 20764 main/binary-amd64/Packages.gz
+ 15ab90745e7c52aee5b806236c34ac2a 150 main/binary-amd64/Release
+SHA1:
+ 27e9b612dc3066251040ed0c507ea9520ef9ebfd 99211 main/binary-amd64/Packages
+ cc00069c6d643120808fefabe7c650b9c6d66e9a 20764 main/binary-amd64/Packages.gz
+ dacb6eb20dd4d3620ac83380078a85fa95226d17 150 main/binary-amd64/Release
+SHA256:
+ 458a43a1e8ae82b7a79f7094e63f618eee5b876e4981060bb639d539dce75288 99211 main/binary-amd64/Packages
+ 22a60ff41b3527067d73c9c14ff57d6d3de7fc53a91b5384b77ce75c1bae789e 20764 main/binary-amd64/Packages.gz
+ cebcefab064213b3eb64a98c1836a7fd496be058d1ea40de050bb9c2e5db5770 150 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEh976SrlKmaTIwxElVsRkuqxCFFMFAmRgLX0ACgkQVsRkuqxC
+FFNPbA/9GWk++dfFHAFIlD/bYv5JWJtLnKb3gkPMqEMDiPW7kNFoejkFLsvfHM+4
+M7lRB3v56kcnVCpmCDBj2tHfVF4fpVjrxQtoskB1z6kgvPsyaCpdnwEEl2p6Jy/W
+yQXFimtKkDdqIPtQDwoxiHIx+Utu4FBfNR44Cjn4tz5r0Z/V/9LjM1rpSPyQaGzc
+2AeT9aSdemuX+7HeoBkSsxhNqDbpfJrZ99lLj7lqRjvB6UO7IwD4k2U9Vie7Tln2
++HGiasS4PO3rGEuseNVDgzkddRamik160tIvKvNnLCg0w47X1xtcdrjabzHtZ3FC
+DO5EwcTbtMuDIEDUx1p3b4TItRxWltPggS6Jd1UsWv4cGUp6yrZNc4HfLojUSV0h
+HyyR6t4pFnGyUO1X/aRH5Qx0Cw86XU8OMON3Q6J+EOGyNy8b02jLizOU5nfFVN3I
+zHpETx1ZjlnwE12RWhsrix3QbOT8QmRhKamNzRXlAO5uV/V43AVyx/vRl9jRVXh+
+yHwe5k2+839MZ92GAJyQN6IzKEOrH204eFpkZxc/valO4+ixN2qm+zdirEpWOv6H
+GVyXdv5DKG9rn/TG9Dgt7TkUt0hXawTfSzbKs08PbYf8upaWYKAK0ciNw1kZ9u99
+18PSd+X+DeUFTIxTjXhsCp81gB9ktLEiNgj0aVfGfXWQYAyJpDM=
+=7XHO
+-----END PGP SIGNATURE-----
